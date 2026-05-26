@@ -1,0 +1,289 @@
+|1|加速腐蚀试验  accelerated corriosion test|
+|2|加速氧化  accelerated oxidation|
+|3|酸洗  acid cleaning|
+|4|酸洗清洁剂  acid picking|
+|5|酸洗清洁剂  acidic cleaner|
+|6|酸度  acidity|
+|7|活化  activity|
+|8|激化能  activation energy|
+|9|活化极化  activation polarization|
+|10|活化剂  activator|
+|11|活性的，活化的  active|
+|12|活化金属  active metals|
+|13|活化-钝化电池  active-passive cell|
+|14|活性区，活化区  active zone|
+|15|活度  activity|
+|16|优级海军黄铜  admiralty brass|
+|17|充气  aeration|
+|18|充气电池  aeration cell|
+|19|嗜氧菌  aerobic bacteria|
+|20|老化  aging|
+|21|老化作用  aging action|
+|22|大气污染  air pollution|
+|23|周浸试验  alternate immersion test|
+|24|厌氧菌  anaerobic bacteria|
+|25|厌氧菌腐蚀  anaerobic corrosion|
+|26|阴离子  anion|
+|27|阳极  anode|
+|28|阳极极化  anodic polarization|
+|29|阳极电流密度  anodic current density|
+|30|阳极氧化物膜  anodic oxide coating|
+|31|阳极保护  anodic protection|
+|32|阳极区电解质  anolyte|
+|33|耐侯性低合金钢  anti-weathering low alloy steel|
+|34|外加电位  applied potential|
+|35|水溶液腐蚀  aqueous corrosion|
+|36|人造海水  artificial seawater|
+|37|大气暴露试验  atmospheric exposure test|
+|38|大气腐蚀  atmospheric corrosion|
+|39|奥氏体不锈钢  austenitic stainless steel|
+|40|辅助电极  auxiliary electrode|
+|41|细菌腐蚀  bacteria corrosion|
+|42|贱金属  base metal|
+|43|双金属腐蚀  bimetallic corrosion|
+|44|甘汞电极  calomel electrode|
+|45|甘汞电极电位  calomel electrode potential|
+|46|碳化  carburizing|
+|47|阴极  cathode|
+|48|阴极保护  cathodic protection|
+|49|阴极极化  cathodic polarization|
+|50|阴极电流密度  cathodic current density|
+|51|阴极电流效率  cathodic current efficiency|
+|52|阴极区电解质  catholyte|
+|53|阳离子  cation|
+|54|碱脆  caustic embrittlement|
+|55|空泡作用  cavitation|
+|56|空泡腐蚀  cavitation corrosion|
+|57|空泡损伤  cavitation damage|
+|58|空泡磨蚀  cavitation erosion|
+|59|电池  cell|
+|60|渗镀，渗碳  cementation|
+|61|化学清洗  chemical cleaning|
+|62|化学转化涂层  chemical conversion coating|
+|63|化学钝化  chemical passivation|
+|64|化学镀  chemical（electroless）plating|
+|65|铬酸盐处理（铬化）  chromating|
+|66|清洗液  cleaning solution|
+|67|浓差电池  concentration cell|
+|68|接触腐蚀  contact corrosion|
+|69|转换涂层  conversion coating|
+|70|恒变形  constant deflection|
+|71|恒载荷  constant load|
+|72|腐蚀  corrosion|
+|73|腐蚀-磨蚀  corrosion-erosion|
+|74|腐蚀疲劳  corrosion fatigue|
+|75|腐蚀电位  corrosion potential|
+|76|腐蚀控制  corrosion control|
+|77|腐蚀电流  corrosion current|
+|78|腐蚀电流密度  corrosion current density|
+|79|腐蚀疲劳开裂  corrosion fatigue cracking|
+|80|腐蚀疲劳极限  corrosion fatigue limit|
+|81|腐蚀产物  corrosion product|
+|82|腐蚀速率  corrosion rate|
+|83|腐蚀科学  corrosion science|
+|84|腐蚀试验  corrosion test|
+|85|腐蚀失重  corrosion weight loss|
+|86|腐蚀增重  corrosion weight gain|
+|87|电偶  couple|
+|88|电偶作用  couple action|
+|89|开裂  cracking|
+|90|龟裂  crazing|
+|91|缝隙腐蚀  crevice corrosion|
+|92|临界阳极电流密度  critical anodic current density|
+|93|临界浓度  critical concentration|
+|94|临界湿度  critical humidity|
+|95|晶体  crystal|
+|96|辅助电极  counter electrode|
+|97|电流密度  current density|
+|98|去活化作用  deactivation|
+|99|脱合金元素作用  dealloying|
+|100|脱铝  dealuminization|
+|101|去气  deaeration|
+|102|缺陷  defect|
+|103|脱脂  degreasing|
+|104|去矿化物质  demineralization|
+|105|去极化  depolarization|
+|106|腐蚀深度  depth of corrosion|
+|107|沉积物腐蚀  deposit corrosion|
+|108|脱锌  dezincification|
+|109|扩散  diffusion|
+|110|扩散电位  diffusion potential|
+|111|差异充气电池  differential aeration cell|
+|112|极限扩散电流密度diffusion limited current density|
+|113|电流  electric current|
+|114|电位  electric potential|
+|115|电化学电池  electrochemical cell|
+|116|电化学腐蚀  electrochemical corrosion|
+|117|电化学当量  electrochemical equivalent|
+|118|电极  electrode|
+|119|电极电位  electrode potential|
+|120|电极反应  electrode reaction|
+|121|电解质  electrolyte|
+|122|电解  electrolysis|
+|123|电解清洗  electrolytic cleaning|
+|124|电动序  electromotive force（Emf）series|
+|125|负电性电位 electropositive potential|
+|126|电泳沉积 electrophoretic deposition|
+|127|电镀  electroplating|
+|128|正电性电位  electropositive potential|
+|129|静电喷涂层  electrostatic coating|
+|130|脆化  embrittlement|
+|131|磨耗  erosion|
+|132|磨耗腐蚀（或冲击腐蚀）  erosion-corrosion|
+|133|平衡电位  equilibrium potential|
+|134|腐蚀极化图  Evans diagram|
+|135|剥蚀  exfoliation corrosion|
+|136|交换电流密度  exchange current density|
+|137|暴露实验  exposure test|
+|138|疲劳  fatigue|
+|139|铁素体  ferrite|
+|140|铁素体不锈钢  ferrite stainless steel|
+|141|丝状腐蚀  filiform corrosion|
+|142|弗拉德电位  Flade potential|
+|143|剥层腐蚀  foliation|
+|144|膜 film|
+|145|微动腐蚀  fretting corrosion|
+|146|燃灰腐蚀  fuel ash corrosion|
+|147|电偶作用  galvanic action|
+|148|伽法尼电池  galvanic cell|
+|149|电偶腐蚀  galvanic corrosion|
+|150|电偶对  galvanic couple|
+|151|电偶序  galvanic series|
+|152|热镀锌  galvanizing|
+|153|恒电流的  galvanoststatic|
+|154|普遍（全面）腐蚀  general corrosion|
+|155|晶界裂纹  grain boundary crack|
+|156|晶粒  grain|
+|157|石墨化腐蚀  graphitic corrosion|
+|158|重量法  gravimetric methods|
+|159|绿锈  green rot|
+|160|哈氏合金  hastelloy|
+|161|热影响区  heat affected zone（HAZ）|
+|162|耐热钢  heat resistant steel|
+|163|热处理  heat treatment|
+|164|高温腐蚀  high temperature corrosion|
+|165|热腐蚀  hot corrosion|
+|166|热镀铝  hot-dip alumizing|
+|167|湿度  humidity|
+|168|氢腐蚀  hydrogen attack|
+|169|氢鼓泡  hydrogen blistering|
+|170|氢损伤  hydrogen damage|
+|171|氢电极  hydrogen electrode|
+|172|氢脆  hydrogen embrittlement|
+|173|氢致开裂  hydrogen induced cracking|
+|174|氢超电压  hydrogen overvoltage|
+|175|氢标  hydrogen scale|
+|176|浸泡实验  immersion test|
+|177|冲蚀  impingement corrosion|
+|178|因科乃尔  Inconel|
+|179|因科罗  Incoloy|
+|180|工业大气  industrial atmosphere|
+|181|缓蚀剂  inhibitor|
+|182|晶间裂纹  intergranular crack|
+|183|不溶性阳极  insoluble anode|
+|184|晶间腐蚀  intergranular corrosion|
+|185|延晶应力腐蚀断裂  intergranular stress corrosion cracking|
+|186|内氧化  interal oxidation|
+|187|内应力  interal stress|
+|188|例子浓差电池  ion concentration cell|
+|189|离子  ion|
+|190|离子注入  ion implantation|
+|191|刀线腐蚀  knife-line corrosion|
+|192|激光釉化  laser glazing|
+|193|层状腐蚀  layer corrosion|
+|194|晶格缺陷  lattic defect|
+|195|液态金属腐蚀  liquid metal corrosion|
+|196|局部作用  local action|
+|197|局部电池  local cell|
+|198|局部腐蚀  local corrosion|
+|199|海洋腐蚀  marine corrosion|
+|200|马氏体  martensite|
+|201|马氏体不锈钢  martensitic stainless steel|
+|202|力学性能  mechanical property|
+|203|金属离子浓差电池  metal ion concentration cell|
+|204|金属喷镀  metal spray|
+|205|金属镀层  metallic coating|
+|206|微生物腐蚀  microbiological corrosion|
+|207|金属粉化  metal dusting|
+|208|混合电位  mixed potential|
+|209|轧制铁鳞  mill scale|
+|210|贵金属  noble metal|
+|211|海军黄铜  navy brass|
+|212|贵电位  noble potential|
+|213|非金属涂层  nonmetallic coating|
+|214|氮化  nitriding|
+|215|过电位  overpotential|
+|216|氧化 oxidation|
+|217|开路电位  open circuit potential|
+|218|氧化-还原电位  oxidation-reduction potential|
+|219|氧化物  oxide|
+|220|氧化膜  oxide film|
+|221|氧浓差电池  oxygen concentration cell|
+|222|钝化  passivation|
+|223|钝化剂  passivator|
+|224|钝化-活化电池  passive-active cell|
+|225|钝化的，钝性的  passive|
+|226|铜绿  patina|
+|227|酸度计  pH indicator，acidometer|
+|228|磷酸盐处理  phosphating|
+|229|酸洗液  pickling solution|
+|230|蚀孔  pit|
+|231|点蚀  pitting|
+|232|点蚀击穿电位  pitting breakdown potential|
+|233|点蚀系数  pitting factor|
+|234|点蚀电位  pitting potential|
+|235|极化  polarization|
+|236|动电位  potential dynamic（potentiokinetic）|
+|237|恒电位仪  potentiostat|
+|238|恒电位  potentisostic|
+|239|电位-pH图  Pourbaix diagram，potential-pH diagram|
+|240|底涂层  prime coat|
+|241|保护电位  protective potential|
+|242|氧化-还原电位  redox potential|
+|243|还原  reduction|
+|244|参比电极  reference electrode|
+|245|相对湿度  relative humidity|
+|246|残余内应力  residua interal stress|
+|247|铁锈  rust|
+|248|防锈油  rust preventive oil|
+|249|牺牲阳极保护  sacrifice anode protection|
+|250|盐水喷雾试验  salt spray test|
+|251|喷砂  sand blasting|
+|252|饱和甘汞电极  saturated calomel electrode（SCE）|
+|253|氧化皮  scale|
+|254|季裂  season cracking|
+|255|选择性腐蚀  selective corrosion|
+|256|选择性氧化  selective oxidation|
+|257|自钝化  self passivation|
+|258|敏化热处理  sensitizing heat treatment|
+|259|喷丸  shot peening|
+|260|银-氯化银电极  silver-sliver chloride electrode|
+|261|慢应变速率  slow strain rate|
+|262|土壤腐蚀  soil corrosion|
+|263|剥离  spalling|
+|264|不锈钢  stainless steel|
+|265|标准电极电位  standard electrode potential|
+|266|标准氢电极  standard hydrogen electrode|
+|267|应变能  strain energy|
+|268|杂散电流腐蚀  stray current corrosion|
+|269|应力场强度因子  stress intensity factor|
+|270|应力腐蚀断裂  stress corrosion cracking（SCC）|
+|271|硫化  sulfidation|
+|272|表面氧化  surface oxidation|
+|273|表面处理  surface treatment|
+|274|皮下腐蚀  subsurface corrosion|
+|275|塔菲尔斜率  Tafel slope|
+|276|失泽  tarnish|
+|277|抗拉强度  tensile strength|
+|278|热偶腐蚀  thermogalvanic corrosion|
+|279|热力学  thermodynamics|
+|280|结瘤腐蚀  tuberculation|
+|281|穿晶腐蚀  transgranular corrosion|
+|282|穿晶应力腐蚀断裂  transgranular stress corrosion cracking|
+|283|过钝化  transpassive|
+|284|膜下腐蚀  underfilm corrosion|
+|285|均匀腐蚀  umiform corrosion|
+|286|水线腐蚀  waterline corrosion|
+|287|焊接腐蚀  weld decay|
+|288|湿度  humidity|
+|289|工作电极  working electrode|
