@@ -1,0 +1,289 @@
+加速腐蚀试验  accelerated corriosion test
+加速氧化  accelerated oxidation
+酸洗  acid cleaning
+酸洗清洁剂  acid picking
+酸洗清洁剂  acidic cleaner
+酸度  acidity
+活化  activity
+激化能  activation energy
+活化极化  activation polarization
+活化剂  activator
+活性的，活化的  active
+活化金属  active metals
+活化-钝化电池  active-passive cell
+活性区，活化区  active zone
+活度  activity
+优级海军黄铜  admiralty brass
+充气  aeration
+充气电池  aeration cell
+嗜氧菌  aerobic bacteria
+老化  aging
+老化作用  aging action
+大气污染  air pollution
+周浸试验  alternate immersion test
+厌氧菌  anaerobic bacteria
+厌氧菌腐蚀  anaerobic corrosion
+阴离子  anion
+阳极  anode
+阳极极化  anodic polarization
+阳极电流密度  anodic current density
+阳极氧化物膜  anodic oxide coating
+阳极保护  anodic protection
+阳极区电解质  anolyte
+耐侯性低合金钢  anti-weathering low alloy steel
+外加电位  applied potential
+水溶液腐蚀  aqueous corrosion
+人造海水  artificial seawater
+大气暴露试验  atmospheric exposure test
+大气腐蚀  atmospheric corrosion
+奥氏体不锈钢  austenitic stainless steel
+辅助电极  auxiliary electrode
+细菌腐蚀  bacteria corrosion
+贱金属  base metal
+双金属腐蚀  bimetallic corrosion
+甘汞电极  calomel electrode
+甘汞电极电位  calomel electrode potential
+碳化  carburizing
+阴极  cathode
+阴极保护  cathodic protection
+阴极极化  cathodic polarization
+阴极电流密度  cathodic current density
+阴极电流效率  cathodic current efficiency
+阴极区电解质  catholyte
+阳离子  cation
+碱脆  caustic embrittlement
+空泡作用  cavitation
+空泡腐蚀  cavitation corrosion
+空泡损伤  cavitation damage
+空泡磨蚀  cavitation erosion
+电池  cell
+渗镀，渗碳  cementation
+化学清洗  chemical cleaning
+化学转化涂层  chemical conversion coating
+化学钝化  chemical passivation
+化学镀  chemical（electroless）plating
+铬酸盐处理（铬化）  chromating
+清洗液  cleaning solution
+浓差电池  concentration cell
+接触腐蚀  contact corrosion
+转换涂层  conversion coating
+恒变形  constant deflection
+恒载荷  constant load
+腐蚀  corrosion
+腐蚀-磨蚀  corrosion-erosion
+腐蚀疲劳  corrosion fatigue
+腐蚀电位  corrosion potential
+腐蚀控制  corrosion control
+腐蚀电流  corrosion current
+腐蚀电流密度  corrosion current density
+腐蚀疲劳开裂  corrosion fatigue cracking
+腐蚀疲劳极限  corrosion fatigue limit
+腐蚀产物  corrosion product
+腐蚀速率  corrosion rate
+腐蚀科学  corrosion science
+腐蚀试验  corrosion test
+腐蚀失重  corrosion weight loss
+腐蚀增重  corrosion weight gain
+电偶  couple
+电偶作用  couple action
+开裂  cracking
+龟裂  crazing
+缝隙腐蚀  crevice corrosion
+临界阳极电流密度  critical anodic current density
+临界浓度  critical concentration
+临界湿度  critical humidity
+晶体  crystal
+辅助电极  counter electrode
+电流密度  current density
+去活化作用  deactivation
+脱合金元素作用  dealloying
+脱铝  dealuminization
+去气  deaeration
+缺陷  defect
+脱脂  degreasing
+去矿化物质  demineralization
+去极化  depolarization
+腐蚀深度  depth of corrosion
+沉积物腐蚀  deposit corrosion
+脱锌  dezincification
+扩散  diffusion
+扩散电位  diffusion potential
+差异充气电池  differential aeration cell
+极限扩散电流密度diffusion limited current density
+电流  electric current
+电位  electric potential
+电化学电池  electrochemical cell
+电化学腐蚀  electrochemical corrosion
+电化学当量  electrochemical equivalent
+电极  electrode
+电极电位  electrode potential
+电极反应  electrode reaction
+电解质  electrolyte
+电解  electrolysis
+电解清洗  electrolytic cleaning
+电动序  electromotive force（Emf）series
+负电性电位 electropositive potential
+电泳沉积 electrophoretic deposition
+电镀  electroplating
+正电性电位  electropositive potential
+静电喷涂层  electrostatic coating
+脆化  embrittlement
+磨耗  erosion
+磨耗腐蚀（或冲击腐蚀）  erosion-corrosion
+平衡电位  equilibrium potential
+腐蚀极化图  Evans diagram
+剥蚀  exfoliation corrosion
+交换电流密度  exchange current density
+暴露实验  exposure test
+疲劳  fatigue
+铁素体  ferrite
+铁素体不锈钢  ferrite stainless steel
+丝状腐蚀  filiform corrosion
+弗拉德电位  Flade potential
+剥层腐蚀  foliation
+膜 film
+微动腐蚀  fretting corrosion
+燃灰腐蚀  fuel ash corrosion
+电偶作用  galvanic action
+伽法尼电池  galvanic cell
+电偶腐蚀  galvanic corrosion
+电偶对  galvanic couple
+电偶序  galvanic series
+热镀锌  galvanizing
+恒电流的  galvanoststatic
+普遍（全面）腐蚀  general corrosion
+晶界裂纹  grain boundary crack
+晶粒  grain
+石墨化腐蚀  graphitic corrosion
+重量法  gravimetric methods
+绿锈  green rot
+哈氏合金  hastelloy
+热影响区  heat affected zone（HAZ）
+耐热钢  heat resistant steel
+热处理  heat treatment
+高温腐蚀  high temperature corrosion
+热腐蚀  hot corrosion
+热镀铝  hot-dip alumizing
+湿度  humidity
+氢腐蚀  hydrogen attack
+氢鼓泡  hydrogen blistering
+氢损伤  hydrogen damage
+氢电极  hydrogen electrode
+氢脆  hydrogen embrittlement
+氢致开裂  hydrogen induced cracking
+氢超电压  hydrogen overvoltage
+氢标  hydrogen scale
+浸泡实验  immersion test
+冲蚀  impingement corrosion
+因科乃尔  Inconel
+因科罗  Incoloy
+工业大气  industrial atmosphere
+缓蚀剂  inhibitor
+晶间裂纹  intergranular crack
+不溶性阳极  insoluble anode
+晶间腐蚀  intergranular corrosion
+延晶应力腐蚀断裂  intergranular stress corrosion cracking
+内氧化  interal oxidation
+内应力  interal stress
+例子浓差电池  ion concentration cell
+离子  ion
+离子注入  ion implantation
+刀线腐蚀  knife-line corrosion
+激光釉化  laser glazing
+层状腐蚀  layer corrosion
+晶格缺陷  lattic defect
+液态金属腐蚀  liquid metal corrosion
+局部作用  local action
+局部电池  local cell
+局部腐蚀  local corrosion
+海洋腐蚀  marine corrosion
+马氏体  martensite
+马氏体不锈钢  martensitic stainless steel
+力学性能  mechanical property
+金属离子浓差电池  metal ion concentration cell
+金属喷镀  metal spray
+金属镀层  metallic coating
+微生物腐蚀  microbiological corrosion
+金属粉化  metal dusting
+混合电位  mixed potential
+轧制铁鳞  mill scale
+贵金属  noble metal
+海军黄铜  navy brass
+贵电位  noble potential
+非金属涂层  nonmetallic coating
+氮化  nitriding
+过电位  overpotential
+氧化 oxidation
+开路电位  open circuit potential
+氧化-还原电位  oxidation-reduction potential
+氧化物  oxide
+氧化膜  oxide film
+氧浓差电池  oxygen concentration cell
+钝化  passivation
+钝化剂  passivator
+钝化-活化电池  passive-active cell
+钝化的，钝性的  passive
+铜绿  patina
+酸度计  pH indicator，acidometer
+磷酸盐处理  phosphating
+酸洗液  pickling solution
+蚀孔  pit
+点蚀  pitting
+点蚀击穿电位  pitting breakdown potential
+点蚀系数  pitting factor
+点蚀电位  pitting potential
+极化  polarization
+动电位  potential dynamic（potentiokinetic）
+恒电位仪  potentiostat
+恒电位  potentisostic
+电位-pH图  Pourbaix diagram，potential-pH diagram
+底涂层  prime coat
+保护电位  protective potential
+氧化-还原电位  redox potential
+还原  reduction
+参比电极  reference electrode
+相对湿度  relative humidity
+残余内应力  residua interal stress
+铁锈  rust
+防锈油  rust preventive oil
+牺牲阳极保护  sacrifice anode protection
+盐水喷雾试验  salt spray test
+喷砂  sand blasting
+饱和甘汞电极  saturated calomel electrode（SCE）
+氧化皮  scale
+季裂  season cracking
+选择性腐蚀  selective corrosion
+选择性氧化  selective oxidation
+自钝化  self passivation
+敏化热处理  sensitizing heat treatment
+喷丸  shot peening
+银-氯化银电极  silver-sliver chloride electrode
+慢应变速率  slow strain rate
+土壤腐蚀  soil corrosion
+剥离  spalling
+不锈钢  stainless steel
+标准电极电位  standard electrode potential
+标准氢电极  standard hydrogen electrode
+应变能  strain energy
+杂散电流腐蚀  stray current corrosion
+应力场强度因子  stress intensity factor
+应力腐蚀断裂  stress corrosion cracking（SCC）
+硫化  sulfidation
+表面氧化  surface oxidation
+表面处理  surface treatment
+皮下腐蚀  subsurface corrosion
+塔菲尔斜率  Tafel slope
+失泽  tarnish
+抗拉强度  tensile strength
+热偶腐蚀  thermogalvanic corrosion
+热力学  thermodynamics
+结瘤腐蚀  tuberculation
+穿晶腐蚀  transgranular corrosion
+穿晶应力腐蚀断裂  transgranular stress corrosion cracking
+过钝化  transpassive
+膜下腐蚀  underfilm corrosion
+均匀腐蚀  umiform corrosion
+水线腐蚀  waterline corrosion
+焊接腐蚀  weld decay
+湿度  humidity
+工作电极  working electrode
