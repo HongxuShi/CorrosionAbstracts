@@ -287,19 +287,3 @@
 |287|焊接腐蚀  weld decay|
 |288|湿度  humidity|
 |289|工作电极  working electrode|
-
-**更多关于材料方面、材料腐蚀控制、材料科普等方面的国内外最新动态，我们网站会不断更新。希望大家一直关注国家材料腐蚀与防护科学数据中心**[**http://www.ecorr.org**](https://www.corrdata.org.cn/index.html)
-
-**
-
-#### 免责声明：本网站所转载的文字、图片与视频资料版权归原创作者所有，如果涉及侵权，请第一时间联系本网删除。
-
-**
-
-相关文章
-
-无相关信息
-
-[网站导航](https://www.corrdata.org.cn/index.php) | [版权声明](https://www.corrdata.org.cn/pages/copyright.html) | [法律法规](https://www.corrdata.org.cn/pages/rules.html) | [联系我们](https://www.corrdata.org.cn/pages/contact.html)
-
-版权所有：国家材料环境腐蚀平台 [京ICP备13025191号](http://beian.miit.gov.cn/) 京公网安备11010802026268号
