@@ -1,0 +1,4715 @@
+[
+    {
+        "id": "https://openalex.org/W4400864565",
+        "doi": "https://doi.org/10.1016/j.corsci.2024.112309",
+        "title": "Light-driven extracellular electron transfer accelerates microbiologically influenced corrosion by Rhodopseudomonas palustris TIE-1",
+        "display_name": "Light-driven extracellular electron transfer accelerates microbiologically influenced corrosion by Rhodopseudomonas palustris TIE-1",
+        "relevance_score": 0.99859476,
+        "publication_year": 2024,
+        "publication_date": "2024-07-21",
+        "ids": {
+            "openalex": "https://openalex.org/W4400864565",
+            "doi": "https://doi.org/10.1016/j.corsci.2024.112309"
+        },
+        "language": "en",
+        "primary_location": {
+            "id": "doi:10.1016/j.corsci.2024.112309",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1016/j.corsci.2024.112309",
+            "pdf_url": null,
+            "source": {
+                "id": "https://openalex.org/S96167972",
+                "display_name": "Corrosion Science",
+                "issn_l": "0010-938X",
+                "issn": [
+                    "0010-938X",
+                    "1879-0496"
+                ],
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": true,
+                "host_organization": "https://openalex.org/P4310320990",
+                "host_organization_name": "Elsevier BV",
+                "host_organization_lineage": [
+                    "https://openalex.org/P4310320990"
+                ],
+                "host_organization_lineage_names": [
+                    "Elsevier BV"
+                ],
+                "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Corrosion Science",
+            "raw_type": "journal-article"
+        },
+        "type": "article",
+        "indexed_in": [
+            "crossref"
+        ],
+        "open_access": {
+            "is_oa": false,
+            "oa_status": "closed",
+            "oa_url": null,
+            "any_repository_has_fulltext": false
+        },
+        "authorships": [
+            {
+                "author_position": "first",
+                "author": {
+                    "id": "https://openalex.org/A5024835342",
+                    "display_name": "Yuntian Lou",
+                    "orcid": null
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I92403157",
+                        "display_name": "University of Science and Technology Beijing",
+                        "ror": "https://ror.org/02egmk993",
+                        "country_code": "CN",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "CN"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Yuntian Lou",
+                "raw_affiliation_strings": [
+                    "BRI Southeast Asia Network for Corrosion and Protection (MOE), Shunde Innovation School, University of Science and Technology Beijing, Foshan 528399, China",
+                    "Beijing Advanced Innovation Center for Materials Genome Engineering, Institute for Advanced Materials and Technology, University of Science and Technology Beijing, Beijing 100083, China",
+                    "National Materials Corrosion and Protection Data Center, University of Science and Technology Beijing, Beijing 100083, China"
+                ],
+                "raw_orcid": "https://orcid.org/0000-0001-6908-4503",
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "BRI Southeast Asia Network for Corrosion and Protection (MOE), Shunde Innovation School, University of Science and Technology Beijing, Foshan 528399, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "Beijing Advanced Innovation Center for Materials Genome Engineering, Institute for Advanced Materials and Technology, University of Science and Technology Beijing, Beijing 100083, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "National Materials Corrosion and Protection Data Center, University of Science and Technology Beijing, Beijing 100083, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5100397032",
+                    "display_name": "Hao Zhang",
+                    "orcid": "https://orcid.org/0000-0003-2300-1404"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I92403157",
+                        "display_name": "University of Science and Technology Beijing",
+                        "ror": "https://ror.org/02egmk993",
+                        "country_code": "CN",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "CN"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Hao Zhang",
+                "raw_affiliation_strings": [
+                    "BRI Southeast Asia Network for Corrosion and Protection (MOE), Shunde Innovation School, University of Science and Technology Beijing, Foshan 528399, China",
+                    "Beijing Advanced Innovation Center for Materials Genome Engineering, Institute for Advanced Materials and Technology, University of Science and Technology Beijing, Beijing 100083, China",
+                    "National Materials Corrosion and Protection Data Center, University of Science and Technology Beijing, Beijing 100083, China"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "BRI Southeast Asia Network for Corrosion and Protection (MOE), Shunde Innovation School, University of Science and Technology Beijing, Foshan 528399, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "Beijing Advanced Innovation Center for Materials Genome Engineering, Institute for Advanced Materials and Technology, University of Science and Technology Beijing, Beijing 100083, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "National Materials Corrosion and Protection Data Center, University of Science and Technology Beijing, Beijing 100083, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5106418106",
+                    "display_name": "Ziyu Li",
+                    "orcid": "https://orcid.org/0000-0002-5402-8071"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I92403157",
+                        "display_name": "University of Science and Technology Beijing",
+                        "ror": "https://ror.org/02egmk993",
+                        "country_code": "CN",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    },
+                    {
+                        "id": "https://openalex.org/I98358874",
+                        "display_name": "Delft University of Technology",
+                        "ror": "https://ror.org/02e2c7k09",
+                        "country_code": "NL",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I98358874"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "CN",
+                    "NL"
+                ],
+                "is_corresponding": true,
+                "raw_author_name": "Hao Zhang",
+                "raw_affiliation_strings": [
+                    "BRI Southeast Asia Network for Corrosion and Protection (MOE), Shunde Innovation School, University of Science and Technology Beijing, Foshan 528399, China",
+                    "Beijing Advanced Innovation Center for Materials Genome Engineering, Institute for Advanced Materials and Technology, University of Science and Technology Beijing, Beijing 100083, China",
+                    "National Materials Corrosion and Protection Data Center, University of Science and Technology Beijing, Beijing 100083, China",
+                    "Delft University of Technology, Department of Materials Science and Engineering, Mekelweg 2, Delft 2628CD, the Netherlands"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "BRI Southeast Asia Network for Corrosion and Protection (MOE), Shunde Innovation School, University of Science and Technology Beijing, Foshan 528399, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "Beijing Advanced Innovation Center for Materials Genome Engineering, Institute for Advanced Materials and Technology, University of Science and Technology Beijing, Beijing 100083, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "National Materials Corrosion and Protection Data Center, University of Science and Technology Beijing, Beijing 100083, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "Delft University of Technology, Department of Materials Science and Engineering, Mekelweg 2, Delft 2628CD, the Netherlands",
+                        "institution_ids": [
+                            "https://openalex.org/I98358874"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5108650864",
+                    "display_name": "Shaopeng Liu",
+                    "orcid": null
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I92403157",
+                        "display_name": "University of Science and Technology Beijing",
+                        "ror": "https://ror.org/02egmk993",
+                        "country_code": "CN",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    },
+                    {
+                        "id": "https://openalex.org/I98358874",
+                        "display_name": "Delft University of Technology",
+                        "ror": "https://ror.org/02e2c7k09",
+                        "country_code": "NL",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I98358874"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "CN",
+                    "NL"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Ziyu Li",
+                "raw_affiliation_strings": [
+                    "Delft University of Technology, Department of Materials Science and Engineering, Mekelweg 2, Delft 2628CD, the Netherlands",
+                    "Beijing Advanced Innovation Center for Materials Genome Engineering, Institute for Advanced Materials and Technology, University of Science and Technology Beijing, Beijing 100083, China",
+                    "National Materials Corrosion and Protection Data Center, University of Science and Technology Beijing, Beijing 100083, China"
+                ],
+                "raw_orcid": "https://orcid.org/0000-0002-5402-8071",
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Delft University of Technology, Department of Materials Science and Engineering, Mekelweg 2, Delft 2628CD, the Netherlands",
+                        "institution_ids": [
+                            "https://openalex.org/I98358874"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "Beijing Advanced Innovation Center for Materials Genome Engineering, Institute for Advanced Materials and Technology, University of Science and Technology Beijing, Beijing 100083, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "National Materials Corrosion and Protection Data Center, University of Science and Technology Beijing, Beijing 100083, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5113097510",
+                    "display_name": "Weiwei Chang",
+                    "orcid": null
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I92403157",
+                        "display_name": "University of Science and Technology Beijing",
+                        "ror": "https://ror.org/02egmk993",
+                        "country_code": "CN",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "CN"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Shaopeng Liu",
+                "raw_affiliation_strings": [
+                    "Beijing Advanced Innovation Center for Materials Genome Engineering, Institute for Advanced Materials and Technology, University of Science and Technology Beijing, Beijing 100083, China",
+                    "National Materials Corrosion and Protection Data Center, University of Science and Technology Beijing, Beijing 100083, China"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Beijing Advanced Innovation Center for Materials Genome Engineering, Institute for Advanced Materials and Technology, University of Science and Technology Beijing, Beijing 100083, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "National Materials Corrosion and Protection Data Center, University of Science and Technology Beijing, Beijing 100083, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5032438155",
+                    "display_name": "Hongchang Qian",
+                    "orcid": null
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I92403157",
+                        "display_name": "University of Science and Technology Beijing",
+                        "ror": "https://ror.org/02egmk993",
+                        "country_code": "CN",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "CN"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Weiwei Chang",
+                "raw_affiliation_strings": [
+                    "Beijing Advanced Innovation Center for Materials Genome Engineering, Institute for Advanced Materials and Technology, University of Science and Technology Beijing, Beijing 100083, China",
+                    "National Materials Corrosion and Protection Data Center, University of Science and Technology Beijing, Beijing 100083, China",
+                    "BRI Southeast Asia Network for Corrosion and Protection (MOE), Shunde Innovation School, University of Science and Technology Beijing, Foshan 528399, China"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Beijing Advanced Innovation Center for Materials Genome Engineering, Institute for Advanced Materials and Technology, University of Science and Technology Beijing, Beijing 100083, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "National Materials Corrosion and Protection Data Center, University of Science and Technology Beijing, Beijing 100083, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "BRI Southeast Asia Network for Corrosion and Protection (MOE), Shunde Innovation School, University of Science and Technology Beijing, Foshan 528399, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5111119211",
+                    "display_name": "Xiangping Hao",
+                    "orcid": null
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I92403157",
+                        "display_name": "University of Science and Technology Beijing",
+                        "ror": "https://ror.org/02egmk993",
+                        "country_code": "CN",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "CN"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Hongchang Qian",
+                "raw_affiliation_strings": [
+                    "BRI Southeast Asia Network for Corrosion and Protection (MOE), Shunde Innovation School, University of Science and Technology Beijing, Foshan 528399, China",
+                    "Beijing Advanced Innovation Center for Materials Genome Engineering, Institute for Advanced Materials and Technology, University of Science and Technology Beijing, Beijing 100083, China",
+                    "National Materials Corrosion and Protection Data Center, University of Science and Technology Beijing, Beijing 100083, China"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "BRI Southeast Asia Network for Corrosion and Protection (MOE), Shunde Innovation School, University of Science and Technology Beijing, Foshan 528399, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "Beijing Advanced Innovation Center for Materials Genome Engineering, Institute for Advanced Materials and Technology, University of Science and Technology Beijing, Beijing 100083, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "National Materials Corrosion and Protection Data Center, University of Science and Technology Beijing, Beijing 100083, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5100379751",
+                    "display_name": "Dawei Zhang",
+                    "orcid": "https://orcid.org/0000-0002-6546-6181"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I92403157",
+                        "display_name": "University of Science and Technology Beijing",
+                        "ror": "https://ror.org/02egmk993",
+                        "country_code": "CN",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "CN"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Xiangping Hao",
+                "raw_affiliation_strings": [
+                    "Beijing Advanced Innovation Center for Materials Genome Engineering, Institute for Advanced Materials and Technology, University of Science and Technology Beijing, Beijing 100083, China",
+                    "National Materials Corrosion and Protection Data Center, University of Science and Technology Beijing, Beijing 100083, China",
+                    "BRI Southeast Asia Network for Corrosion and Protection (MOE), Shunde Innovation School, University of Science and Technology Beijing, Foshan 528399, China"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Beijing Advanced Innovation Center for Materials Genome Engineering, Institute for Advanced Materials and Technology, University of Science and Technology Beijing, Beijing 100083, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "National Materials Corrosion and Protection Data Center, University of Science and Technology Beijing, Beijing 100083, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "BRI Southeast Asia Network for Corrosion and Protection (MOE), Shunde Innovation School, University of Science and Technology Beijing, Foshan 528399, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "last",
+                "author": {
+                    "id": "https://openalex.org/A5100379751",
+                    "display_name": "Dawei Zhang",
+                    "orcid": "https://orcid.org/0000-0002-6546-6181"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I92403157",
+                        "display_name": "University of Science and Technology Beijing",
+                        "ror": "https://ror.org/02egmk993",
+                        "country_code": "CN",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "CN"
+                ],
+                "is_corresponding": true,
+                "raw_author_name": "Dawei Zhang",
+                "raw_affiliation_strings": [
+                    "BRI Southeast Asia Network for Corrosion and Protection (MOE), Shunde Innovation School, University of Science and Technology Beijing, Foshan 528399, China",
+                    "Beijing Advanced Innovation Center for Materials Genome Engineering, Institute for Advanced Materials and Technology, University of Science and Technology Beijing, Beijing 100083, China",
+                    "National Materials Corrosion and Protection Data Center, University of Science and Technology Beijing, Beijing 100083, China"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "BRI Southeast Asia Network for Corrosion and Protection (MOE), Shunde Innovation School, University of Science and Technology Beijing, Foshan 528399, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "Beijing Advanced Innovation Center for Materials Genome Engineering, Institute for Advanced Materials and Technology, University of Science and Technology Beijing, Beijing 100083, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "National Materials Corrosion and Protection Data Center, University of Science and Technology Beijing, Beijing 100083, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "institutions": [],
+        "countries_distinct_count": 2,
+        "institutions_distinct_count": 9,
+        "corresponding_author_ids": [
+            "https://openalex.org/A5100379751",
+            "https://openalex.org/A5106418106"
+        ],
+        "corresponding_institution_ids": [
+            "https://openalex.org/I92403157",
+            "https://openalex.org/I98358874"
+        ],
+        "apc_list": {
+            "value": 4250,
+            "currency": "USD",
+            "value_usd": 4250
+        },
+        "apc_paid": null,
+        "fwci": 2.0986,
+        "has_fulltext": false,
+        "cited_by_count": 20,
+        "citation_normalized_percentile": {
+            "value": 0.90748654,
+            "is_in_top_1_percent": false,
+            "is_in_top_10_percent": true
+        },
+        "cited_by_percentile_year": {
+            "min": 94,
+            "max": 100
+        },
+        "biblio": {
+            "volume": "237",
+            "issue": null,
+            "first_page": "112309",
+            "last_page": "112309"
+        },
+        "is_retracted": false,
+        "is_paratext": false,
+        "is_xpac": false,
+        "primary_topic": {
+            "id": "https://openalex.org/T10310",
+            "display_name": "Corrosion Behavior and Inhibition",
+            "score": 0.9998000264167786,
+            "subfield": {
+                "id": "https://openalex.org/subfields/2505",
+                "display_name": "Materials Chemistry"
+            },
+            "field": {
+                "id": "https://openalex.org/fields/25",
+                "display_name": "Materials Science"
+            },
+            "domain": {
+                "id": "https://openalex.org/domains/3",
+                "display_name": "Physical Sciences"
+            }
+        },
+        "topics": [
+            {
+                "id": "https://openalex.org/T10310",
+                "display_name": "Corrosion Behavior and Inhibition",
+                "score": 0.9998000264167786,
+                "subfield": {
+                    "id": "https://openalex.org/subfields/2505",
+                    "display_name": "Materials Chemistry"
+                },
+                "field": {
+                    "id": "https://openalex.org/fields/25",
+                    "display_name": "Materials Science"
+                },
+                "domain": {
+                    "id": "https://openalex.org/domains/3",
+                    "display_name": "Physical Sciences"
+                }
+            },
+            {
+                "id": "https://openalex.org/T12071",
+                "display_name": "Marine Biology and Environmental Chemistry",
+                "score": 0.9837999939918518,
+                "subfield": {
+                    "id": "https://openalex.org/subfields/2212",
+                    "display_name": "Ocean Engineering"
+                },
+                "field": {
+                    "id": "https://openalex.org/fields/22",
+                    "display_name": "Engineering"
+                },
+                "domain": {
+                    "id": "https://openalex.org/domains/3",
+                    "display_name": "Physical Sciences"
+                }
+            },
+            {
+                "id": "https://openalex.org/T11850",
+                "display_name": "Concrete Corrosion and Durability",
+                "score": 0.9812999963760376,
+                "subfield": {
+                    "id": "https://openalex.org/subfields/2205",
+                    "display_name": "Civil and Structural Engineering"
+                },
+                "field": {
+                    "id": "https://openalex.org/fields/22",
+                    "display_name": "Engineering"
+                },
+                "domain": {
+                    "id": "https://openalex.org/domains/3",
+                    "display_name": "Physical Sciences"
+                }
+            }
+        ],
+        "keywords": [
+            {
+                "id": "https://openalex.org/keywords/rhodopseudomonas-palustris",
+                "display_name": "Rhodopseudomonas palustris",
+                "score": 0.8635215759277344
+            },
+            {
+                "id": "https://openalex.org/keywords/corrosion",
+                "display_name": "Corrosion",
+                "score": 0.7769865393638611
+            },
+            {
+                "id": "https://openalex.org/keywords/electron-transfer",
+                "display_name": "Electron transfer",
+                "score": 0.6304349899291992
+            },
+            {
+                "id": "https://openalex.org/keywords/extracellular",
+                "display_name": "Extracellular",
+                "score": 0.5231155753135681
+            },
+            {
+                "id": "https://openalex.org/keywords/materials-science",
+                "display_name": "Materials science",
+                "score": 0.4694221615791321
+            },
+            {
+                "id": "https://openalex.org/keywords/chemistry",
+                "display_name": "Chemistry",
+                "score": 0.399030864238739
+            },
+            {
+                "id": "https://openalex.org/keywords/metallurgy",
+                "display_name": "Metallurgy",
+                "score": 0.38248196244239807
+            },
+            {
+                "id": "https://openalex.org/keywords/photochemistry",
+                "display_name": "Photochemistry",
+                "score": 0.34248799085617065
+            },
+            {
+                "id": "https://openalex.org/keywords/biology",
+                "display_name": "Biology",
+                "score": 0.19029605388641357
+            },
+            {
+                "id": "https://openalex.org/keywords/bacteria",
+                "display_name": "Bacteria",
+                "score": 0.12076973915100098
+            },
+            {
+                "id": "https://openalex.org/keywords/biochemistry",
+                "display_name": "Biochemistry",
+                "score": 0.08283299207687378
+            }
+        ],
+        "concepts": [
+            {
+                "id": "https://openalex.org/C2778418169",
+                "wikidata": "https://www.wikidata.org/wiki/Q7321215",
+                "display_name": "Rhodopseudomonas palustris",
+                "level": 3,
+                "score": 0.8635215759277344
+            },
+            {
+                "id": "https://openalex.org/C20625102",
+                "wikidata": "https://www.wikidata.org/wiki/Q137056",
+                "display_name": "Corrosion",
+                "level": 2,
+                "score": 0.7769865393638611
+            },
+            {
+                "id": "https://openalex.org/C123669783",
+                "wikidata": "https://www.wikidata.org/wiki/Q902898",
+                "display_name": "Electron transfer",
+                "level": 2,
+                "score": 0.6304349899291992
+            },
+            {
+                "id": "https://openalex.org/C28406088",
+                "wikidata": "https://www.wikidata.org/wiki/Q5571762",
+                "display_name": "Extracellular",
+                "level": 2,
+                "score": 0.5231155753135681
+            },
+            {
+                "id": "https://openalex.org/C192562407",
+                "wikidata": "https://www.wikidata.org/wiki/Q228736",
+                "display_name": "Materials science",
+                "level": 0,
+                "score": 0.4694221615791321
+            },
+            {
+                "id": "https://openalex.org/C185592680",
+                "wikidata": "https://www.wikidata.org/wiki/Q2329",
+                "display_name": "Chemistry",
+                "level": 0,
+                "score": 0.399030864238739
+            },
+            {
+                "id": "https://openalex.org/C191897082",
+                "wikidata": "https://www.wikidata.org/wiki/Q11467",
+                "display_name": "Metallurgy",
+                "level": 1,
+                "score": 0.38248196244239807
+            },
+            {
+                "id": "https://openalex.org/C75473681",
+                "wikidata": "https://www.wikidata.org/wiki/Q188651",
+                "display_name": "Photochemistry",
+                "level": 1,
+                "score": 0.34248799085617065
+            },
+            {
+                "id": "https://openalex.org/C86803240",
+                "wikidata": "https://www.wikidata.org/wiki/Q420",
+                "display_name": "Biology",
+                "level": 0,
+                "score": 0.19029605388641357
+            },
+            {
+                "id": "https://openalex.org/C523546767",
+                "wikidata": "https://www.wikidata.org/wiki/Q10876",
+                "display_name": "Bacteria",
+                "level": 2,
+                "score": 0.12076973915100098
+            },
+            {
+                "id": "https://openalex.org/C55493867",
+                "wikidata": "https://www.wikidata.org/wiki/Q7094",
+                "display_name": "Biochemistry",
+                "level": 1,
+                "score": 0.08283299207687378
+            },
+            {
+                "id": "https://openalex.org/C54355233",
+                "wikidata": "https://www.wikidata.org/wiki/Q7162",
+                "display_name": "Genetics",
+                "level": 1,
+                "score": 0.0
+            }
+        ],
+        "mesh": [],
+        "locations_count": 1,
+        "locations": [
+            {
+                "id": "doi:10.1016/j.corsci.2024.112309",
+                "is_oa": false,
+                "landing_page_url": "https://doi.org/10.1016/j.corsci.2024.112309",
+                "pdf_url": null,
+                "source": {
+                    "id": "https://openalex.org/S96167972",
+                    "display_name": "Corrosion Science",
+                    "issn_l": "0010-938X",
+                    "issn": [
+                        "0010-938X",
+                        "1879-0496"
+                    ],
+                    "is_oa": false,
+                    "is_in_doaj": false,
+                    "is_core": true,
+                    "host_organization": "https://openalex.org/P4310320990",
+                    "host_organization_name": "Elsevier BV",
+                    "host_organization_lineage": [
+                        "https://openalex.org/P4310320990"
+                    ],
+                    "host_organization_lineage_names": [
+                        "Elsevier BV"
+                    ],
+                    "type": "journal"
+                },
+                "license": null,
+                "license_id": null,
+                "version": "publishedVersion",
+                "is_accepted": true,
+                "is_published": true,
+                "raw_source_name": "Corrosion Science",
+                "raw_type": "journal-article"
+            }
+        ],
+        "best_oa_location": null,
+        "sustainable_development_goals": [],
+        "awards": [
+            {
+                "id": "https://openalex.org/G2532934608",
+                "display_name": null,
+                "funder_award_id": "52301074",
+                "funder_id": "https://openalex.org/F4320321001",
+                "funder_display_name": "National Natural Science Foundation of China"
+            },
+            {
+                "id": "https://openalex.org/G3292845531",
+                "display_name": "不锈钢微生物腐蚀双向胞外电子传递作用机制与演化规律研究",
+                "funder_award_id": "52071015",
+                "funder_id": "https://openalex.org/F4320321001",
+                "funder_display_name": "National Natural Science Foundation of China"
+            }
+        ],
+        "funders": [
+            {
+                "id": "https://openalex.org/F4320321001",
+                "display_name": "National Natural Science Foundation of China",
+                "ror": "https://ror.org/01h0zpd94"
+            }
+        ],
+        "has_content": {
+            "grobid_xml": false,
+            "pdf": false
+        },
+        "content_urls": null,
+        "referenced_works_count": 55,
+        "referenced_works": [
+            "https://openalex.org/W76711023",
+            "https://openalex.org/W1989209115",
+            "https://openalex.org/W1993295668",
+            "https://openalex.org/W2026279470",
+            "https://openalex.org/W2040307429",
+            "https://openalex.org/W2044420546",
+            "https://openalex.org/W2121418351",
+            "https://openalex.org/W2149978111",
+            "https://openalex.org/W2156620442",
+            "https://openalex.org/W2164072937",
+            "https://openalex.org/W2547891072",
+            "https://openalex.org/W2569396986",
+            "https://openalex.org/W2724203634",
+            "https://openalex.org/W2766955257",
+            "https://openalex.org/W2796228719",
+            "https://openalex.org/W2796455572",
+            "https://openalex.org/W2802829718",
+            "https://openalex.org/W2894592696",
+            "https://openalex.org/W2905112061",
+            "https://openalex.org/W2911655934",
+            "https://openalex.org/W2917074559",
+            "https://openalex.org/W2939169040",
+            "https://openalex.org/W2963537674",
+            "https://openalex.org/W2974163168",
+            "https://openalex.org/W2990974745",
+            "https://openalex.org/W2993844352",
+            "https://openalex.org/W2996236726",
+            "https://openalex.org/W3006032763",
+            "https://openalex.org/W3034171249",
+            "https://openalex.org/W3083170692",
+            "https://openalex.org/W3088651085",
+            "https://openalex.org/W3089119298",
+            "https://openalex.org/W3093343462",
+            "https://openalex.org/W3107202232",
+            "https://openalex.org/W3165646706",
+            "https://openalex.org/W3173364080",
+            "https://openalex.org/W3179736148",
+            "https://openalex.org/W4200460827",
+            "https://openalex.org/W4210390582",
+            "https://openalex.org/W4282916802",
+            "https://openalex.org/W4283792588",
+            "https://openalex.org/W4288045382",
+            "https://openalex.org/W4289778534",
+            "https://openalex.org/W4293387438",
+            "https://openalex.org/W4296774304",
+            "https://openalex.org/W4318817161",
+            "https://openalex.org/W4323306034",
+            "https://openalex.org/W4381489142",
+            "https://openalex.org/W4381948786",
+            "https://openalex.org/W4382021340",
+            "https://openalex.org/W4388946313",
+            "https://openalex.org/W4389856396",
+            "https://openalex.org/W6786282834",
+            "https://openalex.org/W6796070038",
+            "https://openalex.org/W6850333043"
+        ],
+        "related_works": [
+            "https://openalex.org/W2391495062",
+            "https://openalex.org/W1966982203",
+            "https://openalex.org/W2950836731",
+            "https://openalex.org/W2904588173",
+            "https://openalex.org/W2363609197",
+            "https://openalex.org/W3046466757",
+            "https://openalex.org/W2152542731",
+            "https://openalex.org/W2359067237",
+            "https://openalex.org/W4234927286",
+            "https://openalex.org/W1981703259"
+        ],
+        "abstract_inverted_index": null,
+        "counts_by_year": [
+            {
+                "year": 2026,
+                "cited_by_count": 4
+            },
+            {
+                "year": 2025,
+                "cited_by_count": 14
+            },
+            {
+                "year": 2024,
+                "cited_by_count": 2
+            }
+        ],
+        "updated_date": "2026-06-21T06:12:48.119943",
+        "created_date": "2025-10-10T00:00:00"
+    },
+    {
+        "id": "https://openalex.org/W4406362058",
+        "doi": "https://doi.org/10.1016/j.corsci.2025.112712",
+        "title": "Fabrication of novel Arabic gum-grafted-polyurethanes as eco-friendly corrosion inhibitors for carbon steel in sour environments: Surface analysis and inhibition mechanism",
+        "display_name": "Fabrication of novel Arabic gum-grafted-polyurethanes as eco-friendly corrosion inhibitors for carbon steel in sour environments: Surface analysis and inhibition mechanism",
+        "relevance_score": 0.99793637,
+        "publication_year": 2025,
+        "publication_date": "2025-01-14",
+        "ids": {
+            "openalex": "https://openalex.org/W4406362058",
+            "doi": "https://doi.org/10.1016/j.corsci.2025.112712"
+        },
+        "language": "en",
+        "primary_location": {
+            "id": "doi:10.1016/j.corsci.2025.112712",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1016/j.corsci.2025.112712",
+            "pdf_url": null,
+            "source": {
+                "id": "https://openalex.org/S96167972",
+                "display_name": "Corrosion Science",
+                "issn_l": "0010-938X",
+                "issn": [
+                    "0010-938X",
+                    "1879-0496"
+                ],
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": true,
+                "host_organization": "https://openalex.org/P4310320990",
+                "host_organization_name": "Elsevier BV",
+                "host_organization_lineage": [
+                    "https://openalex.org/P4310320990"
+                ],
+                "host_organization_lineage_names": [
+                    "Elsevier BV"
+                ],
+                "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Corrosion Science",
+            "raw_type": "journal-article"
+        },
+        "type": "article",
+        "indexed_in": [
+            "crossref"
+        ],
+        "open_access": {
+            "is_oa": false,
+            "oa_status": "closed",
+            "oa_url": null,
+            "any_repository_has_fulltext": false
+        },
+        "authorships": [
+            {
+                "author_position": "first",
+                "author": {
+                    "id": "https://openalex.org/A5012477846",
+                    "display_name": "Danial Iravani",
+                    "orcid": "https://orcid.org/0000-0001-7770-504X"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I86958956",
+                        "display_name": "Ferdowsi University of Mashhad",
+                        "ror": "https://ror.org/00g6ka752",
+                        "country_code": "IR",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I86958956"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "IR"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Danial Iravani",
+                "raw_affiliation_strings": [
+                    "Chemical Engineering Department, Faculty of Engineering, Ferdowsi University of Mashhad (FUM), P.O. Box 9177948944, Mashhad, Iran"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Chemical Engineering Department, Faculty of Engineering, Ferdowsi University of Mashhad (FUM), P.O. Box 9177948944, Mashhad, Iran",
+                        "institution_ids": [
+                            "https://openalex.org/I86958956"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5036424180",
+                    "display_name": "Abdolreza Farhadian",
+                    "orcid": "https://orcid.org/0000-0002-7566-5184"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I21203515",
+                        "display_name": "Kazan Federal University",
+                        "ror": "https://ror.org/05256ym39",
+                        "country_code": "RU",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I21203515"
+                        ]
+                    },
+                    {
+                        "id": "https://openalex.org/I3123069486",
+                        "display_name": "Perm National Research Polytechnic University",
+                        "ror": "https://ror.org/05c0ns027",
+                        "country_code": "RU",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I3123069486"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "RU"
+                ],
+                "is_corresponding": true,
+                "raw_author_name": "Abdolreza Farhadian",
+                "raw_affiliation_strings": [
+                    "Department of Oil and Gas Technologies, Perm National Research Polytechnic University, Perm 614990, Russian Federation",
+                    "Department of Petroleum Engineering, Kazan Federal University, Kremlevskaya str. 18, Kazan 420008, Russian Federation"
+                ],
+                "raw_orcid": "https://orcid.org/0000-0002-7566-5184",
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Department of Oil and Gas Technologies, Perm National Research Polytechnic University, Perm 614990, Russian Federation",
+                        "institution_ids": [
+                            "https://openalex.org/I3123069486"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "Department of Petroleum Engineering, Kazan Federal University, Kremlevskaya str. 18, Kazan 420008, Russian Federation",
+                        "institution_ids": [
+                            "https://openalex.org/I21203515"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5039356622",
+                    "display_name": "Ruhollah Sharifi",
+                    "orcid": "https://orcid.org/0000-0003-3481-7660"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I133529467",
+                        "display_name": "Sharif University of Technology",
+                        "ror": "https://ror.org/024c2fq17",
+                        "country_code": "IR",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I133529467"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "IR"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Ruhollah Sharifi",
+                "raw_affiliation_strings": [
+                    "Department of Materials Science and Engineering, Sharif University of Technology (SUT), P.O. Box 111559466, Tehran, Iran"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Department of Materials Science and Engineering, Sharif University of Technology (SUT), P.O. Box 111559466, Tehran, Iran",
+                        "institution_ids": [
+                            "https://openalex.org/I133529467"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5014007181",
+                    "display_name": "Авни Бериша",
+                    "orcid": "https://orcid.org/0000-0002-3876-1345"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I78768387",
+                        "display_name": "University of Prishtina",
+                        "ror": "https://ror.org/05t3p2g92",
+                        "country_code": "XK",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I78768387"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "XK"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Avni Berisha",
+                "raw_affiliation_strings": [
+                    "Department of Chemistry, Faculty of Natural and Mathematics Science, University of Prishtina, Prishtina 10000, Kosovo"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Department of Chemistry, Faculty of Natural and Mathematics Science, University of Prishtina, Prishtina 10000, Kosovo",
+                        "institution_ids": [
+                            "https://openalex.org/I78768387"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5075420852",
+                    "display_name": "Alireza Rahimi",
+                    "orcid": "https://orcid.org/0000-0002-9159-9527"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I4210086765",
+                        "display_name": "Aerospace Research Institute",
+                        "ror": "https://ror.org/000m4se28",
+                        "country_code": "IR",
+                        "type": "facility",
+                        "lineage": [
+                            "https://openalex.org/I4210086765"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "IR"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Alireza Rahimi",
+                "raw_affiliation_strings": [
+                    "Electrochemistry and Inhibitors Research Group, Research Institute of Petroleum Industry (RIPI), P.O. Box 1485733111, Tehran, Iran"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Electrochemistry and Inhibitors Research Group, Research Institute of Petroleum Industry (RIPI), P.O. Box 1485733111, Tehran, Iran",
+                        "institution_ids": [
+                            "https://openalex.org/I4210086765"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5078466277",
+                    "display_name": "Alireza Shaabani",
+                    "orcid": "https://orcid.org/0000-0002-8295-0717"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I48379061",
+                        "display_name": "Shahid Beheshti University",
+                        "ror": "https://ror.org/0091vmj44",
+                        "country_code": "IR",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I48379061"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "IR"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Alireza Shaabani",
+                "raw_affiliation_strings": [
+                    "Department of Polymer and Materials Chemistry, Faculty of Chemistry and Petroleum Science, Shahid Beheshti University (SBU), Tehran 1983969411, Iran"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Department of Polymer and Materials Chemistry, Faculty of Chemistry and Petroleum Science, Shahid Beheshti University (SBU), Tehran 1983969411, Iran",
+                        "institution_ids": [
+                            "https://openalex.org/I48379061"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5000459124",
+                    "display_name": "Yujie Qiang",
+                    "orcid": "https://orcid.org/0000-0002-0444-3066"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I92403157",
+                        "display_name": "University of Science and Technology Beijing",
+                        "ror": "https://ror.org/02egmk993",
+                        "country_code": "CN",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "CN"
+                ],
+                "is_corresponding": true,
+                "raw_author_name": "Yujie Qiang",
+                "raw_affiliation_strings": [
+                    "National Center for Materials Service Safety, University of Science and Technology Beijing, Beijing 100083, China"
+                ],
+                "raw_orcid": "https://orcid.org/0000-0002-0444-3066",
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "National Center for Materials Service Safety, University of Science and Technology Beijing, Beijing 100083, China",
+                        "institution_ids": [
+                            "https://openalex.org/I92403157"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5022548609",
+                    "display_name": "Ali Asghar Javidparvar",
+                    "orcid": "https://orcid.org/0000-0002-4679-5086"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I23946033",
+                        "display_name": "University of Tehran",
+                        "ror": "https://ror.org/05vf56z40",
+                        "country_code": "IR",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I23946033"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "IR"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Ali Asghar Javidparvar",
+                "raw_affiliation_strings": [
+                    "School of Metallurgy and Materials Engineering, College of Engineering, University of Tehran, P.O. Box 111554563, Tehran, Iran"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "School of Metallurgy and Materials Engineering, College of Engineering, University of Tehran, P.O. Box 111554563, Tehran, Iran",
+                        "institution_ids": [
+                            "https://openalex.org/I23946033"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5074371760",
+                    "display_name": "Dmitriy A. Martyushev",
+                    "orcid": "https://orcid.org/0000-0002-5745-4375"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I3123069486",
+                        "display_name": "Perm National Research Polytechnic University",
+                        "ror": "https://ror.org/05c0ns027",
+                        "country_code": "RU",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I3123069486"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "RU"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Dmitriy A. Martyushev",
+                "raw_affiliation_strings": [
+                    "Department of Oil and Gas Technologies, Perm National Research Polytechnic University, Perm 614990, Russian Federation"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Department of Oil and Gas Technologies, Perm National Research Polytechnic University, Perm 614990, Russian Federation",
+                        "institution_ids": [
+                            "https://openalex.org/I3123069486"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "last",
+                "author": {
+                    "id": "https://openalex.org/A5084446983",
+                    "display_name": "E. Akbarinezhad",
+                    "orcid": "https://orcid.org/0000-0002-6778-0115"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I1286361989",
+                        "display_name": "American Petroleum Institute",
+                        "ror": "https://ror.org/01zvdsy94",
+                        "country_code": "US",
+                        "type": "other",
+                        "lineage": [
+                            "https://openalex.org/I1286361989"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "US"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Esmaeil Akbarinezhad",
+                "raw_affiliation_strings": [
+                    "Coating Research Group, Research Institute of Petroleum Industry (RIPI), P.O. Box 1485733111, Tehran, Iran"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Coating Research Group, Research Institute of Petroleum Industry (RIPI), P.O. Box 1485733111, Tehran, Iran",
+                        "institution_ids": [
+                            "https://openalex.org/I1286361989"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "institutions": [],
+        "countries_distinct_count": 5,
+        "institutions_distinct_count": 10,
+        "corresponding_author_ids": [
+            "https://openalex.org/A5000459124",
+            "https://openalex.org/A5036424180"
+        ],
+        "corresponding_institution_ids": [
+            "https://openalex.org/I21203515",
+            "https://openalex.org/I3123069486",
+            "https://openalex.org/I92403157"
+        ],
+        "apc_list": {
+            "value": 4250,
+            "currency": "USD",
+            "value_usd": 4250
+        },
+        "apc_paid": null,
+        "fwci": 20.5475,
+        "has_fulltext": false,
+        "cited_by_count": 57,
+        "citation_normalized_percentile": {
+            "value": 0.99773732,
+            "is_in_top_1_percent": true,
+            "is_in_top_10_percent": true
+        },
+        "cited_by_percentile_year": {
+            "min": 99,
+            "max": 100
+        },
+        "biblio": {
+            "volume": "246",
+            "issue": null,
+            "first_page": "112712",
+            "last_page": "112712"
+        },
+        "is_retracted": false,
+        "is_paratext": false,
+        "is_xpac": false,
+        "primary_topic": {
+            "id": "https://openalex.org/T10310",
+            "display_name": "Corrosion Behavior and Inhibition",
+            "score": 0.9998000264167786,
+            "subfield": {
+                "id": "https://openalex.org/subfields/2505",
+                "display_name": "Materials Chemistry"
+            },
+            "field": {
+                "id": "https://openalex.org/fields/25",
+                "display_name": "Materials Science"
+            },
+            "domain": {
+                "id": "https://openalex.org/domains/3",
+                "display_name": "Physical Sciences"
+            }
+        },
+        "topics": [
+            {
+                "id": "https://openalex.org/T10310",
+                "display_name": "Corrosion Behavior and Inhibition",
+                "score": 0.9998000264167786,
+                "subfield": {
+                    "id": "https://openalex.org/subfields/2505",
+                    "display_name": "Materials Chemistry"
+                },
+                "field": {
+                    "id": "https://openalex.org/fields/25",
+                    "display_name": "Materials Science"
+                },
+                "domain": {
+                    "id": "https://openalex.org/domains/3",
+                    "display_name": "Physical Sciences"
+                }
+            },
+            {
+                "id": "https://openalex.org/T10810",
+                "display_name": "Polymer composites and self-healing",
+                "score": 0.9955000281333923,
+                "subfield": {
+                    "id": "https://openalex.org/subfields/2507",
+                    "display_name": "Polymers and Plastics"
+                },
+                "field": {
+                    "id": "https://openalex.org/fields/25",
+                    "display_name": "Materials Science"
+                },
+                "domain": {
+                    "id": "https://openalex.org/domains/3",
+                    "display_name": "Physical Sciences"
+                }
+            },
+            {
+                "id": "https://openalex.org/T11850",
+                "display_name": "Concrete Corrosion and Durability",
+                "score": 0.9611999988555908,
+                "subfield": {
+                    "id": "https://openalex.org/subfields/2205",
+                    "display_name": "Civil and Structural Engineering"
+                },
+                "field": {
+                    "id": "https://openalex.org/fields/22",
+                    "display_name": "Engineering"
+                },
+                "domain": {
+                    "id": "https://openalex.org/domains/3",
+                    "display_name": "Physical Sciences"
+                }
+            }
+        ],
+        "keywords": [
+            {
+                "id": "https://openalex.org/keywords/corrosion",
+                "display_name": "Corrosion",
+                "score": 0.8211686611175537
+            },
+            {
+                "id": "https://openalex.org/keywords/environmentally-friendly",
+                "display_name": "Environmentally friendly",
+                "score": 0.7481974363327026
+            },
+            {
+                "id": "https://openalex.org/keywords/gum-arabic",
+                "display_name": "Gum arabic",
+                "score": 0.5893251895904541
+            },
+            {
+                "id": "https://openalex.org/keywords/carbon-steel",
+                "display_name": "Carbon steel",
+                "score": 0.5830060839653015
+            },
+            {
+                "id": "https://openalex.org/keywords/fabrication",
+                "display_name": "Fabrication",
+                "score": 0.5828662514686584
+            },
+            {
+                "id": "https://openalex.org/keywords/materials-science",
+                "display_name": "Materials science",
+                "score": 0.5423356890678406
+            },
+            {
+                "id": "https://openalex.org/keywords/arabic",
+                "display_name": "Arabic",
+                "score": 0.4295254349708557
+            },
+            {
+                "id": "https://openalex.org/keywords/metallurgy",
+                "display_name": "Metallurgy",
+                "score": 0.3759530186653137
+            },
+            {
+                "id": "https://openalex.org/keywords/chemistry",
+                "display_name": "Chemistry",
+                "score": 0.25267571210861206
+            },
+            {
+                "id": "https://openalex.org/keywords/organic-chemistry",
+                "display_name": "Organic chemistry",
+                "score": 0.10772079229354858
+            },
+            {
+                "id": "https://openalex.org/keywords/medicine",
+                "display_name": "Medicine",
+                "score": 0.05878901481628418
+            }
+        ],
+        "concepts": [
+            {
+                "id": "https://openalex.org/C20625102",
+                "wikidata": "https://www.wikidata.org/wiki/Q137056",
+                "display_name": "Corrosion",
+                "level": 2,
+                "score": 0.8211686611175537
+            },
+            {
+                "id": "https://openalex.org/C171534860",
+                "wikidata": "https://www.wikidata.org/wiki/Q655870",
+                "display_name": "Environmentally friendly",
+                "level": 2,
+                "score": 0.7481974363327026
+            },
+            {
+                "id": "https://openalex.org/C2780054349",
+                "wikidata": "https://www.wikidata.org/wiki/Q535814",
+                "display_name": "Gum arabic",
+                "level": 2,
+                "score": 0.5893251895904541
+            },
+            {
+                "id": "https://openalex.org/C2778560533",
+                "wikidata": "https://www.wikidata.org/wiki/Q967996",
+                "display_name": "Carbon steel",
+                "level": 3,
+                "score": 0.5830060839653015
+            },
+            {
+                "id": "https://openalex.org/C136525101",
+                "wikidata": "https://www.wikidata.org/wiki/Q5428139",
+                "display_name": "Fabrication",
+                "level": 3,
+                "score": 0.5828662514686584
+            },
+            {
+                "id": "https://openalex.org/C192562407",
+                "wikidata": "https://www.wikidata.org/wiki/Q228736",
+                "display_name": "Materials science",
+                "level": 0,
+                "score": 0.5423356890678406
+            },
+            {
+                "id": "https://openalex.org/C96455323",
+                "wikidata": "https://www.wikidata.org/wiki/Q13955",
+                "display_name": "Arabic",
+                "level": 2,
+                "score": 0.4295254349708557
+            },
+            {
+                "id": "https://openalex.org/C191897082",
+                "wikidata": "https://www.wikidata.org/wiki/Q11467",
+                "display_name": "Metallurgy",
+                "level": 1,
+                "score": 0.3759530186653137
+            },
+            {
+                "id": "https://openalex.org/C185592680",
+                "wikidata": "https://www.wikidata.org/wiki/Q2329",
+                "display_name": "Chemistry",
+                "level": 0,
+                "score": 0.25267571210861206
+            },
+            {
+                "id": "https://openalex.org/C178790620",
+                "wikidata": "https://www.wikidata.org/wiki/Q11351",
+                "display_name": "Organic chemistry",
+                "level": 1,
+                "score": 0.10772079229354858
+            },
+            {
+                "id": "https://openalex.org/C71924100",
+                "wikidata": "https://www.wikidata.org/wiki/Q11190",
+                "display_name": "Medicine",
+                "level": 0,
+                "score": 0.05878901481628418
+            },
+            {
+                "id": "https://openalex.org/C138885662",
+                "wikidata": "https://www.wikidata.org/wiki/Q5891",
+                "display_name": "Philosophy",
+                "level": 0,
+                "score": 0.0
+            },
+            {
+                "id": "https://openalex.org/C204787440",
+                "wikidata": "https://www.wikidata.org/wiki/Q188504",
+                "display_name": "Alternative medicine",
+                "level": 2,
+                "score": 0.0
+            },
+            {
+                "id": "https://openalex.org/C41895202",
+                "wikidata": "https://www.wikidata.org/wiki/Q8162",
+                "display_name": "Linguistics",
+                "level": 1,
+                "score": 0.0
+            },
+            {
+                "id": "https://openalex.org/C18903297",
+                "wikidata": "https://www.wikidata.org/wiki/Q7150",
+                "display_name": "Ecology",
+                "level": 1,
+                "score": 0.0
+            },
+            {
+                "id": "https://openalex.org/C86803240",
+                "wikidata": "https://www.wikidata.org/wiki/Q420",
+                "display_name": "Biology",
+                "level": 0,
+                "score": 0.0
+            },
+            {
+                "id": "https://openalex.org/C142724271",
+                "wikidata": "https://www.wikidata.org/wiki/Q7208",
+                "display_name": "Pathology",
+                "level": 1,
+                "score": 0.0
+            }
+        ],
+        "mesh": [],
+        "locations_count": 1,
+        "locations": [
+            {
+                "id": "doi:10.1016/j.corsci.2025.112712",
+                "is_oa": false,
+                "landing_page_url": "https://doi.org/10.1016/j.corsci.2025.112712",
+                "pdf_url": null,
+                "source": {
+                    "id": "https://openalex.org/S96167972",
+                    "display_name": "Corrosion Science",
+                    "issn_l": "0010-938X",
+                    "issn": [
+                        "0010-938X",
+                        "1879-0496"
+                    ],
+                    "is_oa": false,
+                    "is_in_doaj": false,
+                    "is_core": true,
+                    "host_organization": "https://openalex.org/P4310320990",
+                    "host_organization_name": "Elsevier BV",
+                    "host_organization_lineage": [
+                        "https://openalex.org/P4310320990"
+                    ],
+                    "host_organization_lineage_names": [
+                        "Elsevier BV"
+                    ],
+                    "type": "journal"
+                },
+                "license": null,
+                "license_id": null,
+                "version": "publishedVersion",
+                "is_accepted": true,
+                "is_published": true,
+                "raw_source_name": "Corrosion Science",
+                "raw_type": "journal-article"
+            }
+        ],
+        "best_oa_location": null,
+        "sustainable_development_goals": [
+            {
+                "id": "https://metadata.un.org/sdg/12",
+                "score": 0.4699999988079071,
+                "display_name": "Responsible consumption and production"
+            }
+        ],
+        "awards": [
+            {
+                "id": "https://openalex.org/G6269049866",
+                "display_name": null,
+                "funder_award_id": "22308023",
+                "funder_id": "https://openalex.org/F4320321001",
+                "funder_display_name": "National Natural Science Foundation of China"
+            },
+            {
+                "id": "https://openalex.org/G8710965240",
+                "display_name": null,
+                "funder_award_id": "FSNM-2024-0005",
+                "funder_id": "https://openalex.org/F4320327494",
+                "funder_display_name": "Ministry of Science and Higher Education of the Russian Federation"
+            }
+        ],
+        "funders": [
+            {
+                "id": "https://openalex.org/F4320321001",
+                "display_name": "National Natural Science Foundation of China",
+                "ror": "https://ror.org/01h0zpd94"
+            },
+            {
+                "id": "https://openalex.org/F4320321912",
+                "display_name": "Ministry of Education and Science of the Russian Federation",
+                "ror": "https://ror.org/00ghqgy32"
+            },
+            {
+                "id": "https://openalex.org/F4320327494",
+                "display_name": "Ministry of Science and Higher Education of the Russian Federation",
+                "ror": null
+            }
+        ],
+        "has_content": {
+            "grobid_xml": false,
+            "pdf": false
+        },
+        "content_urls": null,
+        "referenced_works_count": 80,
+        "referenced_works": [
+            "https://openalex.org/W1967017456",
+            "https://openalex.org/W1981368803",
+            "https://openalex.org/W2059885388",
+            "https://openalex.org/W2070277648",
+            "https://openalex.org/W2070360305",
+            "https://openalex.org/W2079436800",
+            "https://openalex.org/W2079906275",
+            "https://openalex.org/W2084003852",
+            "https://openalex.org/W2109606719",
+            "https://openalex.org/W2112961837",
+            "https://openalex.org/W2129841286",
+            "https://openalex.org/W2171422241",
+            "https://openalex.org/W2206618500",
+            "https://openalex.org/W2310650505",
+            "https://openalex.org/W2312234858",
+            "https://openalex.org/W2461583052",
+            "https://openalex.org/W2469578813",
+            "https://openalex.org/W2609035627",
+            "https://openalex.org/W2917966122",
+            "https://openalex.org/W2944712448",
+            "https://openalex.org/W2954212194",
+            "https://openalex.org/W2955848903",
+            "https://openalex.org/W2981720247",
+            "https://openalex.org/W3004396254",
+            "https://openalex.org/W3008148620",
+            "https://openalex.org/W3011999732",
+            "https://openalex.org/W3027650673",
+            "https://openalex.org/W3080333623",
+            "https://openalex.org/W3082307931",
+            "https://openalex.org/W3097085133",
+            "https://openalex.org/W3113738805",
+            "https://openalex.org/W3120808525",
+            "https://openalex.org/W3121526831",
+            "https://openalex.org/W3121626975",
+            "https://openalex.org/W3148532812",
+            "https://openalex.org/W3166188039",
+            "https://openalex.org/W3166950637",
+            "https://openalex.org/W3170540077",
+            "https://openalex.org/W3184451295",
+            "https://openalex.org/W3195045190",
+            "https://openalex.org/W3197468651",
+            "https://openalex.org/W4200585383",
+            "https://openalex.org/W4206200442",
+            "https://openalex.org/W4210969510",
+            "https://openalex.org/W4213342439",
+            "https://openalex.org/W4214582370",
+            "https://openalex.org/W4224111333",
+            "https://openalex.org/W4289667664",
+            "https://openalex.org/W4306255076",
+            "https://openalex.org/W4308541035",
+            "https://openalex.org/W4308558761",
+            "https://openalex.org/W4310076229",
+            "https://openalex.org/W4313236859",
+            "https://openalex.org/W4313251279",
+            "https://openalex.org/W4319442119",
+            "https://openalex.org/W4320479549",
+            "https://openalex.org/W4362468775",
+            "https://openalex.org/W4367624729",
+            "https://openalex.org/W4367839979",
+            "https://openalex.org/W4367848728",
+            "https://openalex.org/W4385609598",
+            "https://openalex.org/W4386701090",
+            "https://openalex.org/W4388947373",
+            "https://openalex.org/W4390732427",
+            "https://openalex.org/W4391448272",
+            "https://openalex.org/W4391825183",
+            "https://openalex.org/W4391981195",
+            "https://openalex.org/W4392952565",
+            "https://openalex.org/W4396625899",
+            "https://openalex.org/W4400209540",
+            "https://openalex.org/W4403500735",
+            "https://openalex.org/W4405395426",
+            "https://openalex.org/W4405987294",
+            "https://openalex.org/W6809980128",
+            "https://openalex.org/W6810215847",
+            "https://openalex.org/W6845568733",
+            "https://openalex.org/W6846315108",
+            "https://openalex.org/W6848828440",
+            "https://openalex.org/W6861349797",
+            "https://openalex.org/W6873143956"
+        ],
+        "related_works": [
+            "https://openalex.org/W2349891746",
+            "https://openalex.org/W1577087430",
+            "https://openalex.org/W2884282816",
+            "https://openalex.org/W2368072971",
+            "https://openalex.org/W1992548139",
+            "https://openalex.org/W2037503666",
+            "https://openalex.org/W186863808",
+            "https://openalex.org/W2348242304",
+            "https://openalex.org/W2394115446",
+            "https://openalex.org/W2367863789"
+        ],
+        "abstract_inverted_index": null,
+        "counts_by_year": [
+            {
+                "year": 2026,
+                "cited_by_count": 26
+            },
+            {
+                "year": 2025,
+                "cited_by_count": 31
+            }
+        ],
+        "updated_date": "2026-06-20T22:02:38.213706",
+        "created_date": "2025-10-10T00:00:00"
+    },
+    {
+        "id": "https://openalex.org/W4396702875",
+        "doi": "https://doi.org/10.1016/j.corsci.2024.112113",
+        "title": "Unraveling short-term O2 contamination on under deposit corrosion of X65 pipeline steel in CO2 saturated solution",
+        "display_name": "Unraveling short-term O2 contamination on under deposit corrosion of X65 pipeline steel in CO2 saturated solution",
+        "relevance_score": 0.9977833,
+        "publication_year": 2024,
+        "publication_date": "2024-05-07",
+        "ids": {
+            "openalex": "https://openalex.org/W4396702875",
+            "doi": "https://doi.org/10.1016/j.corsci.2024.112113"
+        },
+        "language": "en",
+        "primary_location": {
+            "id": "doi:10.1016/j.corsci.2024.112113",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1016/j.corsci.2024.112113",
+            "pdf_url": null,
+            "source": {
+                "id": "https://openalex.org/S96167972",
+                "display_name": "Corrosion Science",
+                "issn_l": "0010-938X",
+                "issn": [
+                    "0010-938X",
+                    "1879-0496"
+                ],
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": true,
+                "host_organization": "https://openalex.org/P4310320990",
+                "host_organization_name": "Elsevier BV",
+                "host_organization_lineage": [
+                    "https://openalex.org/P4310320990"
+                ],
+                "host_organization_lineage_names": [
+                    "Elsevier BV"
+                ],
+                "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Corrosion Science",
+            "raw_type": "journal-article"
+        },
+        "type": "article",
+        "indexed_in": [
+            "crossref"
+        ],
+        "open_access": {
+            "is_oa": false,
+            "oa_status": "closed",
+            "oa_url": null,
+            "any_repository_has_fulltext": false
+        },
+        "authorships": [
+            {
+                "author_position": "first",
+                "author": {
+                    "id": "https://openalex.org/A5022028344",
+                    "display_name": "HE Li-min",
+                    "orcid": "https://orcid.org/0000-0002-8002-1367"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I27357992",
+                        "display_name": "Dalian University of Technology",
+                        "ror": "https://ror.org/023hj5876",
+                        "country_code": "CN",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I27357992"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "CN"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Limin He",
+                "raw_affiliation_strings": [
+                    "School of Naval Architecture and Ocean Engineering, Dalian University of Technology, Dalian 116024, China"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "School of Naval Architecture and Ocean Engineering, Dalian University of Technology, Dalian 116024, China",
+                        "institution_ids": [
+                            "https://openalex.org/I27357992"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5101445400",
+                    "display_name": "Qiliang Zhang",
+                    "orcid": "https://orcid.org/0000-0002-7152-6953"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I27357992",
+                        "display_name": "Dalian University of Technology",
+                        "ror": "https://ror.org/023hj5876",
+                        "country_code": "CN",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I27357992"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "CN"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Qiliang Zhang",
+                "raw_affiliation_strings": [
+                    "School of Naval Architecture and Ocean Engineering, Dalian University of Technology, Dalian 116024, China"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "School of Naval Architecture and Ocean Engineering, Dalian University of Technology, Dalian 116024, China",
+                        "institution_ids": [
+                            "https://openalex.org/I27357992"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5014768051",
+                    "display_name": "Wanbin Chen",
+                    "orcid": "https://orcid.org/0000-0001-7572-5768"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I27357992",
+                        "display_name": "Dalian University of Technology",
+                        "ror": "https://ror.org/023hj5876",
+                        "country_code": "CN",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I27357992"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "CN"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Wanbin Chen",
+                "raw_affiliation_strings": [
+                    "School of Naval Architecture and Ocean Engineering, Dalian University of Technology, Dalian 116024, China"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "School of Naval Architecture and Ocean Engineering, Dalian University of Technology, Dalian 116024, China",
+                        "institution_ids": [
+                            "https://openalex.org/I27357992"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5100428942",
+                    "display_name": "Yihan Wang",
+                    "orcid": "https://orcid.org/0000-0003-3164-4047"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I27357992",
+                        "display_name": "Dalian University of Technology",
+                        "ror": "https://ror.org/023hj5876",
+                        "country_code": "CN",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I27357992"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "CN"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Yihan Wang",
+                "raw_affiliation_strings": [
+                    "School of Naval Architecture and Ocean Engineering, Dalian University of Technology, Dalian 116024, China"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "School of Naval Architecture and Ocean Engineering, Dalian University of Technology, Dalian 116024, China",
+                        "institution_ids": [
+                            "https://openalex.org/I27357992"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5100350103",
+                    "display_name": "Mingyu Wang",
+                    "orcid": "https://orcid.org/0000-0001-8317-4708"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I27357992",
+                        "display_name": "Dalian University of Technology",
+                        "ror": "https://ror.org/023hj5876",
+                        "country_code": "CN",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I27357992"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "CN"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Mingyu Wang",
+                "raw_affiliation_strings": [
+                    "School of Naval Architecture and Ocean Engineering, Dalian University of Technology, Dalian 116024, China"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "School of Naval Architecture and Ocean Engineering, Dalian University of Technology, Dalian 116024, China",
+                        "institution_ids": [
+                            "https://openalex.org/I27357992"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5100741712",
+                    "display_name": "Yi Huang",
+                    "orcid": "https://orcid.org/0000-0001-6562-3100"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I27357992",
+                        "display_name": "Dalian University of Technology",
+                        "ror": "https://ror.org/023hj5876",
+                        "country_code": "CN",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I27357992"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "CN"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Yi Huang",
+                "raw_affiliation_strings": [
+                    "School of Naval Architecture and Ocean Engineering, Dalian University of Technology, Dalian 116024, China",
+                    "State Key Laboratory of Structural Analysis for Industrial Equipment, Dalian University of Technology, Dalian 116024, China"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "School of Naval Architecture and Ocean Engineering, Dalian University of Technology, Dalian 116024, China",
+                        "institution_ids": [
+                            "https://openalex.org/I27357992"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "State Key Laboratory of Structural Analysis for Industrial Equipment, Dalian University of Technology, Dalian 116024, China",
+                        "institution_ids": [
+                            "https://openalex.org/I27357992"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "last",
+                "author": {
+                    "id": "https://openalex.org/A5055826220",
+                    "display_name": "Yunze Xu",
+                    "orcid": "https://orcid.org/0000-0002-2692-1583"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I27357992",
+                        "display_name": "Dalian University of Technology",
+                        "ror": "https://ror.org/023hj5876",
+                        "country_code": "CN",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I27357992"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "CN"
+                ],
+                "is_corresponding": true,
+                "raw_author_name": "Yunze Xu",
+                "raw_affiliation_strings": [
+                    "School of Naval Architecture and Ocean Engineering, Dalian University of Technology, Dalian 116024, China",
+                    "State Key Laboratory of Structural Analysis for Industrial Equipment, Dalian University of Technology, Dalian 116024, China"
+                ],
+                "raw_orcid": "https://orcid.org/0000-0002-2692-1583",
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "School of Naval Architecture and Ocean Engineering, Dalian University of Technology, Dalian 116024, China",
+                        "institution_ids": [
+                            "https://openalex.org/I27357992"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "State Key Laboratory of Structural Analysis for Industrial Equipment, Dalian University of Technology, Dalian 116024, China",
+                        "institution_ids": [
+                            "https://openalex.org/I27357992"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "institutions": [],
+        "countries_distinct_count": 1,
+        "institutions_distinct_count": 7,
+        "corresponding_author_ids": [
+            "https://openalex.org/A5055826220"
+        ],
+        "corresponding_institution_ids": [
+            "https://openalex.org/I27357992"
+        ],
+        "apc_list": {
+            "value": 4250,
+            "currency": "USD",
+            "value_usd": 4250
+        },
+        "apc_paid": null,
+        "fwci": 2.7194,
+        "has_fulltext": false,
+        "cited_by_count": 26,
+        "citation_normalized_percentile": {
+            "value": 0.9361721,
+            "is_in_top_1_percent": false,
+            "is_in_top_10_percent": true
+        },
+        "cited_by_percentile_year": {
+            "min": 98,
+            "max": 100
+        },
+        "biblio": {
+            "volume": "233",
+            "issue": null,
+            "first_page": "112113",
+            "last_page": "112113"
+        },
+        "is_retracted": false,
+        "is_paratext": false,
+        "is_xpac": false,
+        "primary_topic": {
+            "id": "https://openalex.org/T10310",
+            "display_name": "Corrosion Behavior and Inhibition",
+            "score": 0.9998999834060669,
+            "subfield": {
+                "id": "https://openalex.org/subfields/2505",
+                "display_name": "Materials Chemistry"
+            },
+            "field": {
+                "id": "https://openalex.org/fields/25",
+                "display_name": "Materials Science"
+            },
+            "domain": {
+                "id": "https://openalex.org/domains/3",
+                "display_name": "Physical Sciences"
+            }
+        },
+        "topics": [
+            {
+                "id": "https://openalex.org/T10310",
+                "display_name": "Corrosion Behavior and Inhibition",
+                "score": 0.9998999834060669,
+                "subfield": {
+                    "id": "https://openalex.org/subfields/2505",
+                    "display_name": "Materials Chemistry"
+                },
+                "field": {
+                    "id": "https://openalex.org/fields/25",
+                    "display_name": "Materials Science"
+                },
+                "domain": {
+                    "id": "https://openalex.org/domains/3",
+                    "display_name": "Physical Sciences"
+                }
+            },
+            {
+                "id": "https://openalex.org/T10736",
+                "display_name": "Hydrogen embrittlement and corrosion behaviors in metals",
+                "score": 0.9986000061035156,
+                "subfield": {
+                    "id": "https://openalex.org/subfields/2506",
+                    "display_name": "Metals and Alloys"
+                },
+                "field": {
+                    "id": "https://openalex.org/fields/25",
+                    "display_name": "Materials Science"
+                },
+                "domain": {
+                    "id": "https://openalex.org/domains/3",
+                    "display_name": "Physical Sciences"
+                }
+            },
+            {
+                "id": "https://openalex.org/T11850",
+                "display_name": "Concrete Corrosion and Durability",
+                "score": 0.9970999956130981,
+                "subfield": {
+                    "id": "https://openalex.org/subfields/2205",
+                    "display_name": "Civil and Structural Engineering"
+                },
+                "field": {
+                    "id": "https://openalex.org/fields/22",
+                    "display_name": "Engineering"
+                },
+                "domain": {
+                    "id": "https://openalex.org/domains/3",
+                    "display_name": "Physical Sciences"
+                }
+            }
+        ],
+        "keywords": [
+            {
+                "id": "https://openalex.org/keywords/corrosion",
+                "display_name": "Corrosion",
+                "score": 0.8155516386032104
+            },
+            {
+                "id": "https://openalex.org/keywords/term",
+                "display_name": "Term (time)",
+                "score": 0.6530439257621765
+            },
+            {
+                "id": "https://openalex.org/keywords/pipeline",
+                "display_name": "Pipeline (software)",
+                "score": 0.5931260585784912
+            },
+            {
+                "id": "https://openalex.org/keywords/contamination",
+                "display_name": "Contamination",
+                "score": 0.587181806564331
+            },
+            {
+                "id": "https://openalex.org/keywords/materials-science",
+                "display_name": "Materials science",
+                "score": 0.5135929584503174
+            },
+            {
+                "id": "https://openalex.org/keywords/metallurgy",
+                "display_name": "Metallurgy",
+                "score": 0.46632272005081177
+            },
+            {
+                "id": "https://openalex.org/keywords/environmental-science",
+                "display_name": "Environmental science",
+                "score": 0.3868415057659149
+            },
+            {
+                "id": "https://openalex.org/keywords/forensic-engineering",
+                "display_name": "Forensic engineering",
+                "score": 0.32218852639198303
+            },
+            {
+                "id": "https://openalex.org/keywords/engineering",
+                "display_name": "Engineering",
+                "score": 0.11760947108268738
+            },
+            {
+                "id": "https://openalex.org/keywords/physics",
+                "display_name": "Physics",
+                "score": 0.04645320773124695
+            }
+        ],
+        "concepts": [
+            {
+                "id": "https://openalex.org/C20625102",
+                "wikidata": "https://www.wikidata.org/wiki/Q137056",
+                "display_name": "Corrosion",
+                "level": 2,
+                "score": 0.8155516386032104
+            },
+            {
+                "id": "https://openalex.org/C61797465",
+                "wikidata": "https://www.wikidata.org/wiki/Q1188986",
+                "display_name": "Term (time)",
+                "level": 2,
+                "score": 0.6530439257621765
+            },
+            {
+                "id": "https://openalex.org/C43521106",
+                "wikidata": "https://www.wikidata.org/wiki/Q2165493",
+                "display_name": "Pipeline (software)",
+                "level": 2,
+                "score": 0.5931260585784912
+            },
+            {
+                "id": "https://openalex.org/C112570922",
+                "wikidata": "https://www.wikidata.org/wiki/Q60528603",
+                "display_name": "Contamination",
+                "level": 2,
+                "score": 0.587181806564331
+            },
+            {
+                "id": "https://openalex.org/C192562407",
+                "wikidata": "https://www.wikidata.org/wiki/Q228736",
+                "display_name": "Materials science",
+                "level": 0,
+                "score": 0.5135929584503174
+            },
+            {
+                "id": "https://openalex.org/C191897082",
+                "wikidata": "https://www.wikidata.org/wiki/Q11467",
+                "display_name": "Metallurgy",
+                "level": 1,
+                "score": 0.46632272005081177
+            },
+            {
+                "id": "https://openalex.org/C39432304",
+                "wikidata": "https://www.wikidata.org/wiki/Q188847",
+                "display_name": "Environmental science",
+                "level": 0,
+                "score": 0.3868415057659149
+            },
+            {
+                "id": "https://openalex.org/C77595967",
+                "wikidata": "https://www.wikidata.org/wiki/Q3151013",
+                "display_name": "Forensic engineering",
+                "level": 1,
+                "score": 0.32218852639198303
+            },
+            {
+                "id": "https://openalex.org/C127413603",
+                "wikidata": "https://www.wikidata.org/wiki/Q11023",
+                "display_name": "Engineering",
+                "level": 0,
+                "score": 0.11760947108268738
+            },
+            {
+                "id": "https://openalex.org/C121332964",
+                "wikidata": "https://www.wikidata.org/wiki/Q413",
+                "display_name": "Physics",
+                "level": 0,
+                "score": 0.04645320773124695
+            },
+            {
+                "id": "https://openalex.org/C18903297",
+                "wikidata": "https://www.wikidata.org/wiki/Q7150",
+                "display_name": "Ecology",
+                "level": 1,
+                "score": 0.0
+            },
+            {
+                "id": "https://openalex.org/C78519656",
+                "wikidata": "https://www.wikidata.org/wiki/Q101333",
+                "display_name": "Mechanical engineering",
+                "level": 1,
+                "score": 0.0
+            },
+            {
+                "id": "https://openalex.org/C62520636",
+                "wikidata": "https://www.wikidata.org/wiki/Q944",
+                "display_name": "Quantum mechanics",
+                "level": 1,
+                "score": 0.0
+            },
+            {
+                "id": "https://openalex.org/C86803240",
+                "wikidata": "https://www.wikidata.org/wiki/Q420",
+                "display_name": "Biology",
+                "level": 0,
+                "score": 0.0
+            }
+        ],
+        "mesh": [],
+        "locations_count": 1,
+        "locations": [
+            {
+                "id": "doi:10.1016/j.corsci.2024.112113",
+                "is_oa": false,
+                "landing_page_url": "https://doi.org/10.1016/j.corsci.2024.112113",
+                "pdf_url": null,
+                "source": {
+                    "id": "https://openalex.org/S96167972",
+                    "display_name": "Corrosion Science",
+                    "issn_l": "0010-938X",
+                    "issn": [
+                        "0010-938X",
+                        "1879-0496"
+                    ],
+                    "is_oa": false,
+                    "is_in_doaj": false,
+                    "is_core": true,
+                    "host_organization": "https://openalex.org/P4310320990",
+                    "host_organization_name": "Elsevier BV",
+                    "host_organization_lineage": [
+                        "https://openalex.org/P4310320990"
+                    ],
+                    "host_organization_lineage_names": [
+                        "Elsevier BV"
+                    ],
+                    "type": "journal"
+                },
+                "license": null,
+                "license_id": null,
+                "version": "publishedVersion",
+                "is_accepted": true,
+                "is_published": true,
+                "raw_source_name": "Corrosion Science",
+                "raw_type": "journal-article"
+            }
+        ],
+        "best_oa_location": null,
+        "sustainable_development_goals": [],
+        "awards": [
+            {
+                "id": "https://openalex.org/G2557756748",
+                "display_name": null,
+                "funder_award_id": "2023YFC2810800",
+                "funder_id": "https://openalex.org/F4320335777",
+                "funder_display_name": "National Key Research and Development Program of China"
+            },
+            {
+                "id": "https://openalex.org/G7718657769",
+                "display_name": null,
+                "funder_award_id": "2022YFC28062002023YFC2810800",
+                "funder_id": "https://openalex.org/F4320335777",
+                "funder_display_name": "National Key Research and Development Program of China"
+            }
+        ],
+        "funders": [
+            {
+                "id": "https://openalex.org/F4320327563",
+                "display_name": "Major State Basic Research Development Program of China",
+                "ror": null
+            },
+            {
+                "id": "https://openalex.org/F4320335777",
+                "display_name": "National Key Research and Development Program of China",
+                "ror": null
+            }
+        ],
+        "has_content": {
+            "grobid_xml": false,
+            "pdf": false
+        },
+        "content_urls": null,
+        "referenced_works_count": 53,
+        "referenced_works": [
+            "https://openalex.org/W175472478",
+            "https://openalex.org/W1490717700",
+            "https://openalex.org/W1972277063",
+            "https://openalex.org/W1977233900",
+            "https://openalex.org/W1981814293",
+            "https://openalex.org/W1982134516",
+            "https://openalex.org/W1990456773",
+            "https://openalex.org/W2001788991",
+            "https://openalex.org/W2049661959",
+            "https://openalex.org/W2054299237",
+            "https://openalex.org/W2060447139",
+            "https://openalex.org/W2075715995",
+            "https://openalex.org/W2084853854",
+            "https://openalex.org/W2121730099",
+            "https://openalex.org/W2133843465",
+            "https://openalex.org/W2144178592",
+            "https://openalex.org/W2272622089",
+            "https://openalex.org/W2278248954",
+            "https://openalex.org/W2344232652",
+            "https://openalex.org/W2394520975",
+            "https://openalex.org/W2559792003",
+            "https://openalex.org/W2590481555",
+            "https://openalex.org/W2597026711",
+            "https://openalex.org/W2729320134",
+            "https://openalex.org/W2791172611",
+            "https://openalex.org/W2800572130",
+            "https://openalex.org/W2883850852",
+            "https://openalex.org/W2892241349",
+            "https://openalex.org/W2893567372",
+            "https://openalex.org/W2912052703",
+            "https://openalex.org/W2923431615",
+            "https://openalex.org/W2951062942",
+            "https://openalex.org/W2963466140",
+            "https://openalex.org/W2981207670",
+            "https://openalex.org/W3016864057",
+            "https://openalex.org/W3046953683",
+            "https://openalex.org/W3084377246",
+            "https://openalex.org/W3110112226",
+            "https://openalex.org/W3146093888",
+            "https://openalex.org/W3168548917",
+            "https://openalex.org/W3171296576",
+            "https://openalex.org/W4200313173",
+            "https://openalex.org/W4281762411",
+            "https://openalex.org/W4282915320",
+            "https://openalex.org/W4323567184",
+            "https://openalex.org/W4361249495",
+            "https://openalex.org/W4388249113",
+            "https://openalex.org/W4388565601",
+            "https://openalex.org/W4390776161",
+            "https://openalex.org/W4391074553",
+            "https://openalex.org/W6607225992",
+            "https://openalex.org/W6740461517",
+            "https://openalex.org/W6857828196"
+        ],
+        "related_works": [
+            "https://openalex.org/W2349891746",
+            "https://openalex.org/W2884282816",
+            "https://openalex.org/W4246525302",
+            "https://openalex.org/W2394115446",
+            "https://openalex.org/W1502342084",
+            "https://openalex.org/W2355749553",
+            "https://openalex.org/W2327028314",
+            "https://openalex.org/W3203998807",
+            "https://openalex.org/W2032583453",
+            "https://openalex.org/W3006522350"
+        ],
+        "abstract_inverted_index": null,
+        "counts_by_year": [
+            {
+                "year": 2026,
+                "cited_by_count": 7
+            },
+            {
+                "year": 2025,
+                "cited_by_count": 13
+            },
+            {
+                "year": 2024,
+                "cited_by_count": 6
+            }
+        ],
+        "updated_date": "2026-06-25T08:15:23.626066",
+        "created_date": "2025-10-10T00:00:00"
+    },
+    {
+        "id": "https://openalex.org/W4414801953",
+        "doi": "https://doi.org/10.1016/j.corsci.2025.113379",
+        "title": "Microstructural determinants of CO2 stress corrosion cracking in high-strength carbon steel wires for flexible pipes",
+        "display_name": "Microstructural determinants of CO2 stress corrosion cracking in high-strength carbon steel wires for flexible pipes",
+        "relevance_score": 0.99771565,
+        "publication_year": 2025,
+        "publication_date": "2025-10-03",
+        "ids": {
+            "openalex": "https://openalex.org/W4414801953",
+            "doi": "https://doi.org/10.1016/j.corsci.2025.113379"
+        },
+        "language": "en",
+        "primary_location": {
+            "id": "doi:10.1016/j.corsci.2025.113379",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1016/j.corsci.2025.113379",
+            "pdf_url": null,
+            "source": {
+                "id": "https://openalex.org/S96167972",
+                "display_name": "Corrosion Science",
+                "issn_l": "0010-938X",
+                "issn": [
+                    "0010-938X",
+                    "1879-0496"
+                ],
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": true,
+                "host_organization": "https://openalex.org/P4310320990",
+                "host_organization_name": "Elsevier BV",
+                "host_organization_lineage": [
+                    "https://openalex.org/P4310320990"
+                ],
+                "host_organization_lineage_names": [
+                    "Elsevier BV"
+                ],
+                "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Corrosion Science",
+            "raw_type": "journal-article"
+        },
+        "type": "article",
+        "indexed_in": [
+            "crossref"
+        ],
+        "open_access": {
+            "is_oa": false,
+            "oa_status": "closed",
+            "oa_url": null,
+            "any_repository_has_fulltext": false
+        },
+        "authorships": [
+            {
+                "author_position": "first",
+                "author": {
+                    "id": "https://openalex.org/A5040664017",
+                    "display_name": "Tarcisio Pimentel",
+                    "orcid": null
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I4210115211",
+                        "display_name": "Metallurgical Research Institute",
+                        "ror": "https://ror.org/0249zbx82",
+                        "country_code": "RO",
+                        "type": "facility",
+                        "lineage": [
+                            "https://openalex.org/I4210115211"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "RO"
+                ],
+                "is_corresponding": true,
+                "raw_author_name": "Tarcisio H.C. Pimentel",
+                "raw_affiliation_strings": [
+                    "Department of Metallurgical and Materials Engineering, Polytechnic School of the University of São Paulo, Brazil"
+                ],
+                "raw_orcid": "https://orcid.org/0009-0003-0522-1929",
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Department of Metallurgical and Materials Engineering, Polytechnic School of the University of São Paulo, Brazil",
+                        "institution_ids": [
+                            "https://openalex.org/I4210115211"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5063020225",
+                    "display_name": "Carlos Alberto da Silva",
+                    "orcid": "https://orcid.org/0000-0002-7093-8470"
+                },
+                "institutions": [],
+                "countries": [],
+                "is_corresponding": false,
+                "raw_author_name": "Carlos Alberto da Silva",
+                "raw_affiliation_strings": [],
+                "raw_orcid": null,
+                "affiliations": []
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5026598054",
+                    "display_name": "Mohammad Masoumi",
+                    "orcid": "https://orcid.org/0000-0002-4365-6734"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I71715416",
+                        "display_name": "Universidade Federal do ABC",
+                        "ror": "https://ror.org/028kg9j04",
+                        "country_code": "BR",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I71715416"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "BR"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Mohammad Masoumi",
+                "raw_affiliation_strings": [
+                    "Engineering Center, Modelling and Applied Social Science, Federal University of the ABC, Santo André, SP, Brazil"
+                ],
+                "raw_orcid": "https://orcid.org/0000-0002-4365-6734",
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Engineering Center, Modelling and Applied Social Science, Federal University of the ABC, Santo André, SP, Brazil",
+                        "institution_ids": [
+                            "https://openalex.org/I71715416"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5015341656",
+                    "display_name": "Hamilton Ferreira Gomes de Abreu",
+                    "orcid": "https://orcid.org/0000-0002-2293-837X"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I243754102",
+                        "display_name": "Universidade Federal do Ceará",
+                        "ror": "https://ror.org/03srtnf24",
+                        "country_code": "BR",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I243754102"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "BR"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Hamilton Ferreira Gomes de Abreu",
+                "raw_affiliation_strings": [
+                    "Department of Metallurgical and Materials Engineering, Federal University of Ceará, Fortaleza, CE, Brazil"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Department of Metallurgical and Materials Engineering, Federal University of Ceará, Fortaleza, CE, Brazil",
+                        "institution_ids": [
+                            "https://openalex.org/I243754102"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5040838023",
+                    "display_name": "Bianka Nani Venturelli",
+                    "orcid": "https://orcid.org/0000-0002-6498-4286"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I4210142765",
+                        "display_name": "Instituto de Pesquisas Tecnológicas",
+                        "ror": "https://ror.org/041mvdf76",
+                        "country_code": "BR",
+                        "type": "facility",
+                        "lineage": [
+                            "https://openalex.org/I4210142765"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "BR"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Bianka Nani Venturelli",
+                "raw_affiliation_strings": [
+                    "Institute for Technological Research, São Paulo, Brazil"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Institute for Technological Research, São Paulo, Brazil",
+                        "institution_ids": [
+                            "https://openalex.org/I4210142765"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5051153423",
+                    "display_name": "Fabrício Pinheiro dos Santos",
+                    "orcid": null
+                },
+                "institutions": [],
+                "countries": [],
+                "is_corresponding": false,
+                "raw_author_name": "Fabrício Pinheiro dos Santos",
+                "raw_affiliation_strings": [
+                    "Leopoldo Américo Miguez de Mello Research Center, Rio de Janeiro, Brazil"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Leopoldo Américo Miguez de Mello Research Center, Rio de Janeiro, Brazil",
+                        "institution_ids": []
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5023915157",
+                    "display_name": "Ilson Palmieri",
+                    "orcid": null
+                },
+                "institutions": [],
+                "countries": [],
+                "is_corresponding": false,
+                "raw_author_name": "Ilson Baptista Palmieri",
+                "raw_affiliation_strings": [
+                    "Leopoldo Américo Miguez de Mello Research Center, Rio de Janeiro, Brazil"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Leopoldo Américo Miguez de Mello Research Center, Rio de Janeiro, Brazil",
+                        "institution_ids": []
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": null,
+                    "display_name": "Jose Adailson Souza",
+                    "orcid": "https://orcid.org/0009-0000-2479-3445"
+                },
+                "institutions": [],
+                "countries": [],
+                "is_corresponding": false,
+                "raw_author_name": "Jose Adailson Souza",
+                "raw_affiliation_strings": [
+                    "Leopoldo Américo Miguez de Mello Research Center, Rio de Janeiro, Brazil"
+                ],
+                "raw_orcid": "https://orcid.org/0009-0000-2479-3445",
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Leopoldo Américo Miguez de Mello Research Center, Rio de Janeiro, Brazil",
+                        "institution_ids": []
+                    }
+                ]
+            },
+            {
+                "author_position": "last",
+                "author": {
+                    "id": "https://openalex.org/A5078629112",
+                    "display_name": "Zehbour Panossian",
+                    "orcid": "https://orcid.org/0000-0001-6578-449X"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I4210115211",
+                        "display_name": "Metallurgical Research Institute",
+                        "ror": "https://ror.org/0249zbx82",
+                        "country_code": "RO",
+                        "type": "facility",
+                        "lineage": [
+                            "https://openalex.org/I4210115211"
+                        ]
+                    },
+                    {
+                        "id": "https://openalex.org/I4210142765",
+                        "display_name": "Instituto de Pesquisas Tecnológicas",
+                        "ror": "https://ror.org/041mvdf76",
+                        "country_code": "BR",
+                        "type": "facility",
+                        "lineage": [
+                            "https://openalex.org/I4210142765"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "BR",
+                    "RO"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Zehbour Panossian",
+                "raw_affiliation_strings": [
+                    "Department of Metallurgical and Materials Engineering, Polytechnic School of the University of São Paulo, Brazil",
+                    "Institute for Technological Research, São Paulo, Brazil"
+                ],
+                "raw_orcid": "https://orcid.org/0000-0001-6578-449X",
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Department of Metallurgical and Materials Engineering, Polytechnic School of the University of São Paulo, Brazil",
+                        "institution_ids": [
+                            "https://openalex.org/I4210115211"
+                        ]
+                    },
+                    {
+                        "raw_affiliation_string": "Institute for Technological Research, São Paulo, Brazil",
+                        "institution_ids": [
+                            "https://openalex.org/I4210142765"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "institutions": [],
+        "countries_distinct_count": 2,
+        "institutions_distinct_count": 9,
+        "corresponding_author_ids": [
+            "https://openalex.org/A5040664017"
+        ],
+        "corresponding_institution_ids": [
+            "https://openalex.org/I4210115211"
+        ],
+        "apc_list": {
+            "value": 4250,
+            "currency": "USD",
+            "value_usd": 4250
+        },
+        "apc_paid": null,
+        "fwci": 0.8756,
+        "has_fulltext": false,
+        "cited_by_count": 2,
+        "citation_normalized_percentile": {
+            "value": 0.6952381,
+            "is_in_top_1_percent": false,
+            "is_in_top_10_percent": false
+        },
+        "cited_by_percentile_year": {
+            "min": 97,
+            "max": 99
+        },
+        "biblio": {
+            "volume": "258",
+            "issue": null,
+            "first_page": "113379",
+            "last_page": "113379"
+        },
+        "is_retracted": false,
+        "is_paratext": false,
+        "is_xpac": false,
+        "primary_topic": {
+            "id": "https://openalex.org/T10736",
+            "display_name": "Hydrogen embrittlement and corrosion behaviors in metals",
+            "score": 0.9997000098228455,
+            "subfield": {
+                "id": "https://openalex.org/subfields/2506",
+                "display_name": "Metals and Alloys"
+            },
+            "field": {
+                "id": "https://openalex.org/fields/25",
+                "display_name": "Materials Science"
+            },
+            "domain": {
+                "id": "https://openalex.org/domains/3",
+                "display_name": "Physical Sciences"
+            }
+        },
+        "topics": [
+            {
+                "id": "https://openalex.org/T10736",
+                "display_name": "Hydrogen embrittlement and corrosion behaviors in metals",
+                "score": 0.9997000098228455,
+                "subfield": {
+                    "id": "https://openalex.org/subfields/2506",
+                    "display_name": "Metals and Alloys"
+                },
+                "field": {
+                    "id": "https://openalex.org/fields/25",
+                    "display_name": "Materials Science"
+                },
+                "domain": {
+                    "id": "https://openalex.org/domains/3",
+                    "display_name": "Physical Sciences"
+                }
+            },
+            {
+                "id": "https://openalex.org/T10310",
+                "display_name": "Corrosion Behavior and Inhibition",
+                "score": 0.998199999332428,
+                "subfield": {
+                    "id": "https://openalex.org/subfields/2505",
+                    "display_name": "Materials Chemistry"
+                },
+                "field": {
+                    "id": "https://openalex.org/fields/25",
+                    "display_name": "Materials Science"
+                },
+                "domain": {
+                    "id": "https://openalex.org/domains/3",
+                    "display_name": "Physical Sciences"
+                }
+            },
+            {
+                "id": "https://openalex.org/T14076",
+                "display_name": "Material Properties and Failure Mechanisms",
+                "score": 0.994700014591217,
+                "subfield": {
+                    "id": "https://openalex.org/subfields/2505",
+                    "display_name": "Materials Chemistry"
+                },
+                "field": {
+                    "id": "https://openalex.org/fields/25",
+                    "display_name": "Materials Science"
+                },
+                "domain": {
+                    "id": "https://openalex.org/domains/3",
+                    "display_name": "Physical Sciences"
+                }
+            }
+        ],
+        "keywords": [
+            {
+                "id": "https://openalex.org/keywords/cementite",
+                "display_name": "Cementite",
+                "score": 0.8812999725341797
+            },
+            {
+                "id": "https://openalex.org/keywords/pearlite",
+                "display_name": "Pearlite",
+                "score": 0.7250999808311462
+            },
+            {
+                "id": "https://openalex.org/keywords/lamellar-structure",
+                "display_name": "Lamellar structure",
+                "score": 0.6542999744415283
+            },
+            {
+                "id": "https://openalex.org/keywords/electron-backscatter-diffraction",
+                "display_name": "Electron backscatter diffraction",
+                "score": 0.6162999868392944
+            },
+            {
+                "id": "https://openalex.org/keywords/microstructure",
+                "display_name": "Microstructure",
+                "score": 0.6061999797821045
+            },
+            {
+                "id": "https://openalex.org/keywords/ferrite",
+                "display_name": "Ferrite (magnet)",
+                "score": 0.5485000014305115
+            },
+            {
+                "id": "https://openalex.org/keywords/carbon-steel",
+                "display_name": "Carbon steel",
+                "score": 0.5073000192642212
+            },
+            {
+                "id": "https://openalex.org/keywords/grain-boundary",
+                "display_name": "Grain boundary",
+                "score": 0.48429998755455017
+            },
+            {
+                "id": "https://openalex.org/keywords/eutectic-system",
+                "display_name": "Eutectic system",
+                "score": 0.4812000095844269
+            }
+        ],
+        "concepts": [
+            {
+                "id": "https://openalex.org/C192562407",
+                "wikidata": "https://www.wikidata.org/wiki/Q228736",
+                "display_name": "Materials science",
+                "level": 0,
+                "score": 0.8934000134468079
+            },
+            {
+                "id": "https://openalex.org/C2781297133",
+                "wikidata": "https://www.wikidata.org/wiki/Q189335",
+                "display_name": "Cementite",
+                "level": 4,
+                "score": 0.8812999725341797
+            },
+            {
+                "id": "https://openalex.org/C191897082",
+                "wikidata": "https://www.wikidata.org/wiki/Q11467",
+                "display_name": "Metallurgy",
+                "level": 1,
+                "score": 0.7371000051498413
+            },
+            {
+                "id": "https://openalex.org/C5701217",
+                "wikidata": "https://www.wikidata.org/wiki/Q387723",
+                "display_name": "Pearlite",
+                "level": 4,
+                "score": 0.7250999808311462
+            },
+            {
+                "id": "https://openalex.org/C77851909",
+                "wikidata": "https://www.wikidata.org/wiki/Q6481705",
+                "display_name": "Lamellar structure",
+                "level": 2,
+                "score": 0.6542999744415283
+            },
+            {
+                "id": "https://openalex.org/C27805521",
+                "wikidata": "https://www.wikidata.org/wiki/Q1326017",
+                "display_name": "Electron backscatter diffraction",
+                "level": 3,
+                "score": 0.6162999868392944
+            },
+            {
+                "id": "https://openalex.org/C87976508",
+                "wikidata": "https://www.wikidata.org/wiki/Q1498213",
+                "display_name": "Microstructure",
+                "level": 2,
+                "score": 0.6061999797821045
+            },
+            {
+                "id": "https://openalex.org/C37210646",
+                "wikidata": "https://www.wikidata.org/wiki/Q5105088",
+                "display_name": "Ferrite (magnet)",
+                "level": 2,
+                "score": 0.5485000014305115
+            },
+            {
+                "id": "https://openalex.org/C2778560533",
+                "wikidata": "https://www.wikidata.org/wiki/Q967996",
+                "display_name": "Carbon steel",
+                "level": 3,
+                "score": 0.5073000192642212
+            },
+            {
+                "id": "https://openalex.org/C47908070",
+                "wikidata": "https://www.wikidata.org/wiki/Q900515",
+                "display_name": "Grain boundary",
+                "level": 3,
+                "score": 0.48429998755455017
+            },
+            {
+                "id": "https://openalex.org/C18168003",
+                "wikidata": "https://www.wikidata.org/wiki/Q628595",
+                "display_name": "Eutectic system",
+                "level": 3,
+                "score": 0.4812000095844269
+            },
+            {
+                "id": "https://openalex.org/C44125496",
+                "wikidata": "https://www.wikidata.org/wiki/Q575611",
+                "display_name": "Bainite",
+                "level": 4,
+                "score": 0.4587000012397766
+            },
+            {
+                "id": "https://openalex.org/C192191005",
+                "wikidata": "https://www.wikidata.org/wiki/Q466491",
+                "display_name": "Grain size",
+                "level": 2,
+                "score": 0.43209999799728394
+            },
+            {
+                "id": "https://openalex.org/C2778117898",
+                "wikidata": "https://www.wikidata.org/wiki/Q4388710",
+                "display_name": "Misorientation",
+                "level": 4,
+                "score": 0.4156000018119812
+            },
+            {
+                "id": "https://openalex.org/C2776944092",
+                "wikidata": "https://www.wikidata.org/wiki/Q4674026",
+                "display_name": "Acicular ferrite",
+                "level": 5,
+                "score": 0.38749998807907104
+            },
+            {
+                "id": "https://openalex.org/C2777777420",
+                "wikidata": "https://www.wikidata.org/wiki/Q4672904",
+                "display_name": "Accumulative roll bonding",
+                "level": 3,
+                "score": 0.36899998784065247
+            },
+            {
+                "id": "https://openalex.org/C159985019",
+                "wikidata": "https://www.wikidata.org/wiki/Q181790",
+                "display_name": "Composite material",
+                "level": 1,
+                "score": 0.3571999967098236
+            },
+            {
+                "id": "https://openalex.org/C2778672287",
+                "wikidata": "https://www.wikidata.org/wiki/Q2277900",
+                "display_name": "Vanadium nitride",
+                "level": 4,
+                "score": 0.3476000130176544
+            },
+            {
+                "id": "https://openalex.org/C20625102",
+                "wikidata": "https://www.wikidata.org/wiki/Q137056",
+                "display_name": "Corrosion",
+                "level": 2,
+                "score": 0.34389999508857727
+            },
+            {
+                "id": "https://openalex.org/C2778760603",
+                "wikidata": "https://www.wikidata.org/wiki/Q585977",
+                "display_name": "Stress corrosion cracking",
+                "level": 3,
+                "score": 0.33660000562667847
+            },
+            {
+                "id": "https://openalex.org/C159122135",
+                "wikidata": "https://www.wikidata.org/wiki/Q737571",
+                "display_name": "Dislocation",
+                "level": 2,
+                "score": 0.3109999895095825
+            },
+            {
+                "id": "https://openalex.org/C26771246",
+                "wikidata": "https://www.wikidata.org/wiki/Q321095",
+                "display_name": "Scanning electron microscope",
+                "level": 2,
+                "score": 0.301800012588501
+            },
+            {
+                "id": "https://openalex.org/C79148161",
+                "wikidata": "https://www.wikidata.org/wiki/Q4456874",
+                "display_name": "Strengthening mechanisms of materials",
+                "level": 3,
+                "score": 0.29429998993873596
+            },
+            {
+                "id": "https://openalex.org/C44255700",
+                "wikidata": "https://www.wikidata.org/wiki/Q978423",
+                "display_name": "Hardening (computing)",
+                "level": 3,
+                "score": 0.2865999937057495
+            },
+            {
+                "id": "https://openalex.org/C2776411116",
+                "wikidata": "https://www.wikidata.org/wiki/Q1024124",
+                "display_name": "Weathering steel",
+                "level": 3,
+                "score": 0.27410000562667847
+            }
+        ],
+        "mesh": [],
+        "locations_count": 1,
+        "locations": [
+            {
+                "id": "doi:10.1016/j.corsci.2025.113379",
+                "is_oa": false,
+                "landing_page_url": "https://doi.org/10.1016/j.corsci.2025.113379",
+                "pdf_url": null,
+                "source": {
+                    "id": "https://openalex.org/S96167972",
+                    "display_name": "Corrosion Science",
+                    "issn_l": "0010-938X",
+                    "issn": [
+                        "0010-938X",
+                        "1879-0496"
+                    ],
+                    "is_oa": false,
+                    "is_in_doaj": false,
+                    "is_core": true,
+                    "host_organization": "https://openalex.org/P4310320990",
+                    "host_organization_name": "Elsevier BV",
+                    "host_organization_lineage": [
+                        "https://openalex.org/P4310320990"
+                    ],
+                    "host_organization_lineage_names": [
+                        "Elsevier BV"
+                    ],
+                    "type": "journal"
+                },
+                "license": null,
+                "license_id": null,
+                "version": "publishedVersion",
+                "is_accepted": true,
+                "is_published": true,
+                "raw_source_name": "Corrosion Science",
+                "raw_type": "journal-article"
+            }
+        ],
+        "best_oa_location": null,
+        "sustainable_development_goals": [],
+        "awards": [
+            {
+                "id": "https://openalex.org/G1185646383",
+                "display_name": null,
+                "funder_award_id": "5900.0110026.18.9",
+                "funder_id": "https://openalex.org/F4320323909",
+                "funder_display_name": "Agência Nacional do Petróleo, Gás Natural e Biocombustíveis"
+            }
+        ],
+        "funders": [
+            {
+                "id": "https://openalex.org/F4320322468",
+                "display_name": "Petrobras",
+                "ror": "https://ror.org/0235kyq22"
+            },
+            {
+                "id": "https://openalex.org/F4320323909",
+                "display_name": "Agência Nacional do Petróleo, Gás Natural e Biocombustíveis",
+                "ror": "https://ror.org/00phthq42"
+            }
+        ],
+        "has_content": {
+            "grobid_xml": false,
+            "pdf": false
+        },
+        "content_urls": null,
+        "referenced_works_count": 40,
+        "referenced_works": [
+            "https://openalex.org/W1543295941",
+            "https://openalex.org/W1985375112",
+            "https://openalex.org/W1994216297",
+            "https://openalex.org/W1995775812",
+            "https://openalex.org/W1996068951",
+            "https://openalex.org/W1999946949",
+            "https://openalex.org/W2018131476",
+            "https://openalex.org/W2047200863",
+            "https://openalex.org/W2060200874",
+            "https://openalex.org/W2069375116",
+            "https://openalex.org/W2081455424",
+            "https://openalex.org/W2150055882",
+            "https://openalex.org/W2474975464",
+            "https://openalex.org/W2789465141",
+            "https://openalex.org/W2892829525",
+            "https://openalex.org/W2935987157",
+            "https://openalex.org/W2944945094",
+            "https://openalex.org/W2947007598",
+            "https://openalex.org/W3018074517",
+            "https://openalex.org/W3037750364",
+            "https://openalex.org/W3123261769",
+            "https://openalex.org/W3211182303",
+            "https://openalex.org/W4200397963",
+            "https://openalex.org/W4205754456",
+            "https://openalex.org/W4214658451",
+            "https://openalex.org/W4225492841",
+            "https://openalex.org/W4236128261",
+            "https://openalex.org/W4240435957",
+            "https://openalex.org/W4292509038",
+            "https://openalex.org/W4295136349",
+            "https://openalex.org/W4319771322",
+            "https://openalex.org/W4386100215",
+            "https://openalex.org/W4391888631",
+            "https://openalex.org/W4404964259",
+            "https://openalex.org/W4407837127",
+            "https://openalex.org/W4408080058",
+            "https://openalex.org/W4408592058",
+            "https://openalex.org/W4409447810",
+            "https://openalex.org/W4409920851",
+            "https://openalex.org/W4413801472"
+        ],
+        "related_works": [],
+        "abstract_inverted_index": null,
+        "counts_by_year": [
+            {
+                "year": 2026,
+                "cited_by_count": 2
+            }
+        ],
+        "updated_date": "2026-06-23T13:55:30.953635",
+        "created_date": "2025-10-10T00:00:00"
+    },
+    {
+        "id": "https://openalex.org/W7160535405",
+        "doi": "https://doi.org/10.1016/j.corsci.2026.113910",
+        "title": "Investigation of metal-solution interface during iron carbonate formation in aqueous CO2 environment using quartz crystal microbalance",
+        "display_name": "Investigation of metal-solution interface during iron carbonate formation in aqueous CO2 environment using quartz crystal microbalance",
+        "relevance_score": 0.99736524,
+        "publication_year": 2026,
+        "publication_date": "2026-05-07",
+        "ids": {
+            "openalex": "https://openalex.org/W7160535405",
+            "doi": "https://doi.org/10.1016/j.corsci.2026.113910"
+        },
+        "language": "en",
+        "primary_location": {
+            "id": "doi:10.1016/j.corsci.2026.113910",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.corsci.2026.113910",
+            "pdf_url": null,
+            "source": {
+                "id": "https://openalex.org/S96167972",
+                "display_name": "Corrosion Science",
+                "issn_l": "0010-938X",
+                "issn": [
+                    "0010-938X",
+                    "1879-0496"
+                ],
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": true,
+                "host_organization": "https://openalex.org/P4310320990",
+                "host_organization_name": "Elsevier BV",
+                "host_organization_lineage": [
+                    "https://openalex.org/P4310320990"
+                ],
+                "host_organization_lineage_names": [
+                    "Elsevier BV"
+                ],
+                "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Corrosion Science",
+            "raw_type": "journal-article"
+        },
+        "type": "article",
+        "indexed_in": [
+            "crossref"
+        ],
+        "open_access": {
+            "is_oa": true,
+            "oa_status": "hybrid",
+            "oa_url": "https://doi.org/10.1016/j.corsci.2026.113910",
+            "any_repository_has_fulltext": false
+        },
+        "authorships": [
+            {
+                "author_position": "first",
+                "author": {
+                    "id": "https://openalex.org/A5047270214",
+                    "display_name": "Sahithi Ayyagari",
+                    "orcid": null
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I4210106879",
+                        "display_name": "Ohio University",
+                        "ror": "https://ror.org/01jr3y717",
+                        "country_code": "US",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I4210106879"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "US"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Sahithi Ayyagari",
+                "raw_affiliation_strings": [
+                    "Institute for Corrosion and Multiphase Technology, Department of Chemical & Biomolecular Engineering, Ohio University, 342 West State Street, Athens OH 45701"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Institute for Corrosion and Multiphase Technology, Department of Chemical & Biomolecular Engineering, Ohio University, 342 West State Street, Athens OH 45701",
+                        "institution_ids": [
+                            "https://openalex.org/I4210106879"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5090359108",
+                    "display_name": "Kushal Singla",
+                    "orcid": "https://orcid.org/0000-0002-9960-9128"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I4210106879",
+                        "display_name": "Ohio University",
+                        "ror": "https://ror.org/01jr3y717",
+                        "country_code": "US",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I4210106879"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "US"
+                ],
+                "is_corresponding": true,
+                "raw_author_name": "Kushal Singla",
+                "raw_affiliation_strings": [
+                    "Institute for Corrosion and Multiphase Technology, Department of Chemical & Biomolecular Engineering, Ohio University, 342 West State Street, Athens OH 45701"
+                ],
+                "raw_orcid": "https://orcid.org/0000-0002-9960-9128",
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Institute for Corrosion and Multiphase Technology, Department of Chemical & Biomolecular Engineering, Ohio University, 342 West State Street, Athens OH 45701",
+                        "institution_ids": [
+                            "https://openalex.org/I4210106879"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5123867893",
+                    "display_name": "Kamila Turganova",
+                    "orcid": null
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I4210106879",
+                        "display_name": "Ohio University",
+                        "ror": "https://ror.org/01jr3y717",
+                        "country_code": "US",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I4210106879"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "US"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Kamila Turganova",
+                "raw_affiliation_strings": [
+                    "Institute for Corrosion and Multiphase Technology, Department of Chemical & Biomolecular Engineering, Ohio University, 342 West State Street, Athens OH 45701"
+                ],
+                "raw_orcid": "https://orcid.org/0000-0001-6379-9428",
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Institute for Corrosion and Multiphase Technology, Department of Chemical & Biomolecular Engineering, Ohio University, 342 West State Street, Athens OH 45701",
+                        "institution_ids": [
+                            "https://openalex.org/I4210106879"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5012309947",
+                    "display_name": "Bruce Brown",
+                    "orcid": "https://orcid.org/0000-0002-2948-1659"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I4210106879",
+                        "display_name": "Ohio University",
+                        "ror": "https://ror.org/01jr3y717",
+                        "country_code": "US",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I4210106879"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "US"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Bruce Brown",
+                "raw_affiliation_strings": [
+                    "Institute for Corrosion and Multiphase Technology, Department of Chemical & Biomolecular Engineering, Ohio University, 342 West State Street, Athens OH 45701"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Institute for Corrosion and Multiphase Technology, Department of Chemical & Biomolecular Engineering, Ohio University, 342 West State Street, Athens OH 45701",
+                        "institution_ids": [
+                            "https://openalex.org/I4210106879"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "middle",
+                "author": {
+                    "id": "https://openalex.org/A5010040797",
+                    "display_name": "Hubert Perrot",
+                    "orcid": "https://orcid.org/0000-0002-3930-2968"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I1294671590",
+                        "display_name": "Centre National de la Recherche Scientifique",
+                        "ror": "https://ror.org/02feahw73",
+                        "country_code": "FR",
+                        "type": "government",
+                        "lineage": [
+                            "https://openalex.org/I1294671590"
+                        ]
+                    },
+                    {
+                        "id": "https://openalex.org/I39804081",
+                        "display_name": "Sorbonne Université",
+                        "ror": "https://ror.org/02en5vm52",
+                        "country_code": "FR",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I39804081"
+                        ]
+                    },
+                    {
+                        "id": "https://openalex.org/I4210092467",
+                        "display_name": "Laboratoire Interfaces et Systèmes Électrochimiques",
+                        "ror": "https://ror.org/00jb20a14",
+                        "country_code": "FR",
+                        "type": "facility",
+                        "lineage": [
+                            "https://openalex.org/I1294671590",
+                            "https://openalex.org/I1294671590",
+                            "https://openalex.org/I39804081",
+                            "https://openalex.org/I4210092467",
+                            "https://openalex.org/I4210128300"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "FR"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Hubert Perrot",
+                "raw_affiliation_strings": [
+                    "Sorbonne Université, CNRS, Laboratoire Interfaces et Systèmes Électrochimiques, LISE, F-75005 Paris, France"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Sorbonne Université, CNRS, Laboratoire Interfaces et Systèmes Électrochimiques, LISE, F-75005 Paris, France",
+                        "institution_ids": [
+                            "https://openalex.org/I39804081",
+                            "https://openalex.org/I4210092467",
+                            "https://openalex.org/I1294671590"
+                        ]
+                    }
+                ]
+            },
+            {
+                "author_position": "last",
+                "author": {
+                    "id": "https://openalex.org/A5000086486",
+                    "display_name": "Srdjan Nešić",
+                    "orcid": "https://orcid.org/0000-0002-3141-5888"
+                },
+                "institutions": [
+                    {
+                        "id": "https://openalex.org/I4210106879",
+                        "display_name": "Ohio University",
+                        "ror": "https://ror.org/01jr3y717",
+                        "country_code": "US",
+                        "type": "education",
+                        "lineage": [
+                            "https://openalex.org/I4210106879"
+                        ]
+                    }
+                ],
+                "countries": [
+                    "US"
+                ],
+                "is_corresponding": false,
+                "raw_author_name": "Srdjan Nešić",
+                "raw_affiliation_strings": [
+                    "Institute for Corrosion and Multiphase Technology, Department of Chemical & Biomolecular Engineering, Ohio University, 342 West State Street, Athens OH 45701"
+                ],
+                "raw_orcid": null,
+                "affiliations": [
+                    {
+                        "raw_affiliation_string": "Institute for Corrosion and Multiphase Technology, Department of Chemical & Biomolecular Engineering, Ohio University, 342 West State Street, Athens OH 45701",
+                        "institution_ids": [
+                            "https://openalex.org/I4210106879"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "institutions": [],
+        "countries_distinct_count": 2,
+        "institutions_distinct_count": 6,
+        "corresponding_author_ids": [
+            "https://openalex.org/A5090359108"
+        ],
+        "corresponding_institution_ids": [
+            "https://openalex.org/I4210106879"
+        ],
+        "apc_list": {
+            "value": 4250,
+            "currency": "USD",
+            "value_usd": 4250
+        },
+        "apc_paid": {
+            "value": 4250,
+            "currency": "USD",
+            "value_usd": 4250
+        },
+        "fwci": 0.0,
+        "has_fulltext": false,
+        "cited_by_count": 0,
+        "citation_normalized_percentile": {
+            "value": 0.80237536,
+            "is_in_top_1_percent": false,
+            "is_in_top_10_percent": false
+        },
+        "cited_by_percentile_year": null,
+        "biblio": {
+            "volume": "269",
+            "issue": null,
+            "first_page": "113910",
+            "last_page": "113910"
+        },
+        "is_retracted": false,
+        "is_paratext": false,
+        "is_xpac": false,
+        "primary_topic": {
+            "id": "https://openalex.org/T11278",
+            "display_name": "Calcium Carbonate Crystallization and Inhibition",
+            "score": 0.4480000138282776,
+            "subfield": {
+                "id": "https://openalex.org/subfields/2502",
+                "display_name": "Biomaterials"
+            },
+            "field": {
+                "id": "https://openalex.org/fields/25",
+                "display_name": "Materials Science"
+            },
+            "domain": {
+                "id": "https://openalex.org/domains/3",
+                "display_name": "Physical Sciences"
+            }
+        },
+        "topics": [
+            {
+                "id": "https://openalex.org/T11278",
+                "display_name": "Calcium Carbonate Crystallization and Inhibition",
+                "score": 0.4480000138282776,
+                "subfield": {
+                    "id": "https://openalex.org/subfields/2502",
+                    "display_name": "Biomaterials"
+                },
+                "field": {
+                    "id": "https://openalex.org/fields/25",
+                    "display_name": "Materials Science"
+                },
+                "domain": {
+                    "id": "https://openalex.org/domains/3",
+                    "display_name": "Physical Sciences"
+                }
+            },
+            {
+                "id": "https://openalex.org/T10310",
+                "display_name": "Corrosion Behavior and Inhibition",
+                "score": 0.1776999980211258,
+                "subfield": {
+                    "id": "https://openalex.org/subfields/2505",
+                    "display_name": "Materials Chemistry"
+                },
+                "field": {
+                    "id": "https://openalex.org/fields/25",
+                    "display_name": "Materials Science"
+                },
+                "domain": {
+                    "id": "https://openalex.org/domains/3",
+                    "display_name": "Physical Sciences"
+                }
+            },
+            {
+                "id": "https://openalex.org/T11160",
+                "display_name": "Acoustic Wave Resonator Technologies",
+                "score": 0.14380000531673431,
+                "subfield": {
+                    "id": "https://openalex.org/subfields/2204",
+                    "display_name": "Biomedical Engineering"
+                },
+                "field": {
+                    "id": "https://openalex.org/fields/22",
+                    "display_name": "Engineering"
+                },
+                "domain": {
+                    "id": "https://openalex.org/domains/3",
+                    "display_name": "Physical Sciences"
+                }
+            }
+        ],
+        "keywords": [
+            {
+                "id": "https://openalex.org/keywords/quartz-crystal-microbalance",
+                "display_name": "Quartz crystal microbalance",
+                "score": 0.9562000036239624
+            },
+            {
+                "id": "https://openalex.org/keywords/corrosion",
+                "display_name": "Corrosion",
+                "score": 0.8691999912261963
+            },
+            {
+                "id": "https://openalex.org/keywords/aqueous-solution",
+                "display_name": "Aqueous solution",
+                "score": 0.5042999982833862
+            },
+            {
+                "id": "https://openalex.org/keywords/layer",
+                "display_name": "Layer (electronics)",
+                "score": 0.46880000829696655
+            },
+            {
+                "id": "https://openalex.org/keywords/carbonate",
+                "display_name": "Carbonate",
+                "score": 0.43630000948905945
+            },
+            {
+                "id": "https://openalex.org/keywords/substrate",
+                "display_name": "Substrate (aquarium)",
+                "score": 0.42980000376701355
+            },
+            {
+                "id": "https://openalex.org/keywords/analytical-chemistry",
+                "display_name": "Analytical Chemistry (journal)",
+                "score": 0.42649999260902405
+            },
+            {
+                "id": "https://openalex.org/keywords/precipitation",
+                "display_name": "Precipitation",
+                "score": 0.40549999475479126
+            }
+        ],
+        "concepts": [
+            {
+                "id": "https://openalex.org/C9996572",
+                "wikidata": "https://www.wikidata.org/wiki/Q629569",
+                "display_name": "Quartz crystal microbalance",
+                "level": 3,
+                "score": 0.9562000036239624
+            },
+            {
+                "id": "https://openalex.org/C20625102",
+                "wikidata": "https://www.wikidata.org/wiki/Q137056",
+                "display_name": "Corrosion",
+                "level": 2,
+                "score": 0.8691999912261963
+            },
+            {
+                "id": "https://openalex.org/C192562407",
+                "wikidata": "https://www.wikidata.org/wiki/Q228736",
+                "display_name": "Materials science",
+                "level": 0,
+                "score": 0.5720999836921692
+            },
+            {
+                "id": "https://openalex.org/C184651966",
+                "wikidata": "https://www.wikidata.org/wiki/Q906356",
+                "display_name": "Aqueous solution",
+                "level": 2,
+                "score": 0.5042999982833862
+            },
+            {
+                "id": "https://openalex.org/C2779227376",
+                "wikidata": "https://www.wikidata.org/wiki/Q6505497",
+                "display_name": "Layer (electronics)",
+                "level": 2,
+                "score": 0.46880000829696655
+            },
+            {
+                "id": "https://openalex.org/C42360764",
+                "wikidata": "https://www.wikidata.org/wiki/Q83588",
+                "display_name": "Chemical engineering",
+                "level": 1,
+                "score": 0.4440000057220459
+            },
+            {
+                "id": "https://openalex.org/C2780659211",
+                "wikidata": "https://www.wikidata.org/wiki/Q181699",
+                "display_name": "Carbonate",
+                "level": 2,
+                "score": 0.43630000948905945
+            },
+            {
+                "id": "https://openalex.org/C2777289219",
+                "wikidata": "https://www.wikidata.org/wiki/Q7632154",
+                "display_name": "Substrate (aquarium)",
+                "level": 2,
+                "score": 0.42980000376701355
+            },
+            {
+                "id": "https://openalex.org/C113196181",
+                "wikidata": "https://www.wikidata.org/wiki/Q485223",
+                "display_name": "Analytical Chemistry (journal)",
+                "level": 2,
+                "score": 0.42649999260902405
+            },
+            {
+                "id": "https://openalex.org/C107054158",
+                "wikidata": "https://www.wikidata.org/wiki/Q25257",
+                "display_name": "Precipitation",
+                "level": 2,
+                "score": 0.40549999475479126
+            },
+            {
+                "id": "https://openalex.org/C145148216",
+                "wikidata": "https://www.wikidata.org/wiki/Q36496",
+                "display_name": "Ion",
+                "level": 2,
+                "score": 0.3797999918460846
+            },
+            {
+                "id": "https://openalex.org/C2781285689",
+                "wikidata": "https://www.wikidata.org/wiki/Q21921428",
+                "display_name": "Crystal (programming language)",
+                "level": 2,
+                "score": 0.3792000114917755
+            },
+            {
+                "id": "https://openalex.org/C2779870107",
+                "wikidata": "https://www.wikidata.org/wiki/Q43010",
+                "display_name": "Quartz",
+                "level": 2,
+                "score": 0.3296000063419342
+            },
+            {
+                "id": "https://openalex.org/C33574316",
+                "wikidata": "https://www.wikidata.org/wiki/Q917260",
+                "display_name": "Passivation",
+                "level": 3,
+                "score": 0.3253999948501587
+            },
+            {
+                "id": "https://openalex.org/C179104552",
+                "wikidata": "https://www.wikidata.org/wiki/Q11165",
+                "display_name": "Inorganic chemistry",
+                "level": 1,
+                "score": 0.32199999690055847
+            },
+            {
+                "id": "https://openalex.org/C73922627",
+                "wikidata": "https://www.wikidata.org/wiki/Q754943",
+                "display_name": "Single crystal",
+                "level": 2,
+                "score": 0.2847999930381775
+            },
+            {
+                "id": "https://openalex.org/C185592680",
+                "wikidata": "https://www.wikidata.org/wiki/Q2329",
+                "display_name": "Chemistry",
+                "level": 0,
+                "score": 0.27480000257492065
+            },
+            {
+                "id": "https://openalex.org/C3017894415",
+                "wikidata": "https://www.wikidata.org/wiki/Q7979883",
+                "display_name": "Weight change",
+                "level": 4,
+                "score": 0.2628999948501587
+            },
+            {
+                "id": "https://openalex.org/C197751951",
+                "wikidata": "https://www.wikidata.org/wiki/Q1046363",
+                "display_name": "Surface layer",
+                "level": 3,
+                "score": 0.26179999113082886
+            },
+            {
+                "id": "https://openalex.org/C86183883",
+                "wikidata": "https://www.wikidata.org/wiki/Q507505",
+                "display_name": "Arrhenius equation",
+                "level": 3,
+                "score": 0.25600001215934753
+            }
+        ],
+        "mesh": [],
+        "locations_count": 1,
+        "locations": [
+            {
+                "id": "doi:10.1016/j.corsci.2026.113910",
+                "is_oa": true,
+                "landing_page_url": "https://doi.org/10.1016/j.corsci.2026.113910",
+                "pdf_url": null,
+                "source": {
+                    "id": "https://openalex.org/S96167972",
+                    "display_name": "Corrosion Science",
+                    "issn_l": "0010-938X",
+                    "issn": [
+                        "0010-938X",
+                        "1879-0496"
+                    ],
+                    "is_oa": false,
+                    "is_in_doaj": false,
+                    "is_core": true,
+                    "host_organization": "https://openalex.org/P4310320990",
+                    "host_organization_name": "Elsevier BV",
+                    "host_organization_lineage": [
+                        "https://openalex.org/P4310320990"
+                    ],
+                    "host_organization_lineage_names": [
+                        "Elsevier BV"
+                    ],
+                    "type": "journal"
+                },
+                "license": "cc-by-nc-nd",
+                "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+                "version": "publishedVersion",
+                "is_accepted": true,
+                "is_published": true,
+                "raw_source_name": "Corrosion Science",
+                "raw_type": "journal-article"
+            }
+        ],
+        "best_oa_location": {
+            "id": "doi:10.1016/j.corsci.2026.113910",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.corsci.2026.113910",
+            "pdf_url": null,
+            "source": {
+                "id": "https://openalex.org/S96167972",
+                "display_name": "Corrosion Science",
+                "issn_l": "0010-938X",
+                "issn": [
+                    "0010-938X",
+                    "1879-0496"
+                ],
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": true,
+                "host_organization": "https://openalex.org/P4310320990",
+                "host_organization_name": "Elsevier BV",
+                "host_organization_lineage": [
+                    "https://openalex.org/P4310320990"
+                ],
+                "host_organization_lineage_names": [
+                    "Elsevier BV"
+                ],
+                "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Corrosion Science",
+            "raw_type": "journal-article"
+        },
+        "sustainable_development_goals": [],
+        "awards": [],
+        "funders": [],
+        "has_content": {
+            "grobid_xml": false,
+            "pdf": false
+        },
+        "content_urls": null,
+        "referenced_works_count": 36,
+        "referenced_works": [
+            "https://openalex.org/W1148710509",
+            "https://openalex.org/W1968442905",
+            "https://openalex.org/W1974223110",
+            "https://openalex.org/W1978280489",
+            "https://openalex.org/W1989796961",
+            "https://openalex.org/W1991149930",
+            "https://openalex.org/W1999345463",
+            "https://openalex.org/W2020676385",
+            "https://openalex.org/W2070382954",
+            "https://openalex.org/W2076701407",
+            "https://openalex.org/W2078644234",
+            "https://openalex.org/W2089405620",
+            "https://openalex.org/W2103324762",
+            "https://openalex.org/W2123916498",
+            "https://openalex.org/W2137224531",
+            "https://openalex.org/W2156193302",
+            "https://openalex.org/W2156569964",
+            "https://openalex.org/W2428048756",
+            "https://openalex.org/W2545119127",
+            "https://openalex.org/W2599199563",
+            "https://openalex.org/W2621334141",
+            "https://openalex.org/W2757565887",
+            "https://openalex.org/W2800572130",
+            "https://openalex.org/W2809602524",
+            "https://openalex.org/W2883850852",
+            "https://openalex.org/W2904649421",
+            "https://openalex.org/W2972974324",
+            "https://openalex.org/W3018074517",
+            "https://openalex.org/W3089229078",
+            "https://openalex.org/W3211343643",
+            "https://openalex.org/W4387610954",
+            "https://openalex.org/W4390588873",
+            "https://openalex.org/W4399490963",
+            "https://openalex.org/W4400789413",
+            "https://openalex.org/W4402280114",
+            "https://openalex.org/W4403731979"
+        ],
+        "related_works": [],
+        "abstract_inverted_index": {
+            "The": [
+                0
+            ],
+            "present": [
+                1
+            ],
+            "study": [
+                2
+            ],
+            "uses": [
+                3
+            ],
+            "a": [
+                4,
+                192
+            ],
+            "quartz": [
+                5,
+                101
+            ],
+            "crystal": [
+                6,
+                102
+            ],
+            "microbalance": [
+                7
+            ],
+            "(QCM)": [
+                8
+            ],
+            "to": [
+                9,
+                41,
+                71,
+                152,
+                228,
+                253
+            ],
+            "investigate": [
+                10
+            ],
+            "the": [
+                11,
+                48,
+                79,
+                136,
+                163,
+                180,
+                196,
+                207,
+                210,
+                220,
+                246
+            ],
+            "formation": [
+                12,
+                128,
+                234
+            ],
+            "of": [
+                13,
+                182,
+                209,
+                222,
+                248
+            ],
+            "iron": [
+                14,
+                237
+            ],
+            "carbonate": [
+                15
+            ],
+            "(": [
+                16,
+                30,
+                54
+            ],
+            "FeC": [
+                17,
+                43,
+                124,
+                214,
+                231,
+                256
+            ],
+            "O": [
+                18,
+                23,
+                44,
+                125,
+                215,
+                232,
+                257
+            ],
+            "3": [
+                19,
+                45,
+                126,
+                216,
+                233,
+                258
+            ],
+            ")": [
+                20,
+                33,
+                56
+            ],
+            "in": [
+                21,
+                51,
+                118,
+                135,
+                141,
+                146,
+                175,
+                186
+            ],
+            "C": [
+                22
+            ],
+            "2": [
+                24
+            ],
+            "-saturated": [
+                25
+            ],
+            "brines.": [
+                26
+            ],
+            "While": [
+                27
+            ],
+            "frequency": [
+                28,
+                62
+            ],
+            "changes": [
+                29,
+                50,
+                77
+            ],
+            "Δ": [
+                31,
+                142
+            ],
+            "f": [
+                32
+            ],
+            "measured": [
+                34
+            ],
+            "using": [
+                35,
+                100
+            ],
+            "QCM": [
+                36,
+                173,
+                227
+            ],
+            "have": [
+                37
+            ],
+            "been": [
+                38
+            ],
+            "traditionally": [
+                39
+            ],
+            "used": [
+                40
+            ],
+            "quantify": [
+                42
+            ],
+            "precipitation": [
+                46
+            ],
+            "kinetics,": [
+                47
+            ],
+            "associated": [
+                49
+            ],
+            "motional": [
+                52,
+                65,
+                119,
+                183,
+                223
+            ],
+            "resistance": [
+                53,
+                66,
+                120,
+                184,
+                224
+            ],
+            "R": [
+                55,
+                143
+            ],
+            "are": [
+                57,
+                68,
+                150
+            ],
+            "often": [
+                58
+            ],
+            "overlooked.": [
+                59
+            ],
+            "Here,": [
+                60
+            ],
+            "both": [
+                61,
+                130
+            ],
+            "change": [
+                63,
+                67
+            ],
+            "and": [
+                64,
+                82,
+                95,
+                149,
+                158,
+                178,
+                200,
+                255
+            ],
+            "analyzed": [
+                69
+            ],
+            "simultaneously": [
+                70
+            ],
+            "gain": [
+                72
+            ],
+            "deeper": [
+                73
+            ],
+            "insight": [
+                74
+            ],
+            "into": [
+                75,
+                195
+            ],
+            "interfacial": [
+                76
+            ],
+            "during": [
+                78,
+                123
+            ],
+            "substrate": [
+                80,
+                238
+            ],
+            "corrosion": [
+                81,
+                157,
+                176,
+                199,
+                201,
+                254
+            ],
+            "subsequent": [
+                83
+            ],
+            "layer": [
+                84,
+                127,
+                203
+            ],
+            "formation,": [
+                85
+            ],
+            "including": [
+                86
+            ],
+            "intermediate": [
+                87
+            ],
+            "steps": [
+                88
+            ],
+            "such": [
+                89
+            ],
+            "as": [
+                90,
+                189
+            ],
+            "ion": [
+                91,
+                160
+            ],
+            "accumulation,": [
+                92
+            ],
+            "surface": [
+                93,
+                250
+            ],
+            "dissolution,": [
+                94
+            ],
+            "precipitation.": [
+                96
+            ],
+            "Experiments": [
+                97
+            ],
+            "were": [
+                98
+            ],
+            "conducted": [
+                99
+            ],
+            "resonators": [
+                103
+            ],
+            "(QCR)": [
+                104
+            ],
+            "coated": [
+                105
+            ],
+            "with": [
+                106,
+                132
+            ],
+            "either": [
+                107
+            ],
+            "inert": [
+                108
+            ],
+            "gold": [
+                109,
+                240
+            ],
+            "or": [
+                110
+            ],
+            "actively": [
+                111
+            ],
+            "corroding": [
+                112
+            ],
+            "iron,": [
+                113
+            ],
+            "across": [
+                114
+            ],
+            "varying": [
+                115
+            ],
+            "conditions.": [
+                116
+            ],
+            "Increase": [
+                117
+            ],
+            "was": [
+                121
+            ],
+            "observed": [
+                122
+            ],
+            "on": [
+                129,
+                171
+            ],
+            "substrates,": [
+                131
+            ],
+            "noticeable": [
+                133
+            ],
+            "differences": [
+                134
+            ],
+            "early-stage": [
+                137
+            ],
+            "behavior.": [
+                138
+            ],
+            "Transient": [
+                139
+            ],
+            "features": [
+                140
+            ],
+            "appeared": [
+                144
+            ],
+            "only": [
+                145
+            ],
+            "select": [
+                147
+            ],
+            "cases": [
+                148
+            ],
+            "attributed": [
+                151
+            ],
+            "surface-specific": [
+                153
+            ],
+            "processes": [
+                154
+            ],
+            "like": [
+                155
+            ],
+            "active": [
+                156
+            ],
+            "local": [
+                159
+            ],
+            "buildup": [
+                161
+            ],
+            "near": [
+                162,
+                249
+            ],
+            "QCR": [
+                164
+            ],
+            "surface.": [
+                165
+            ],
+            "These": [
+                166
+            ],
+            "findings": [
+                167
+            ],
+            "offer": [
+                168
+            ],
+            "new": [
+                169
+            ],
+            "perspectives": [
+                170
+            ],
+            "interpreting": [
+                172
+            ],
+            "data": [
+                174
+            ],
+            "environments": [
+                177
+            ],
+            "motivate": [
+                179
+            ],
+            "analysis": [
+                181
+            ],
+            "response": [
+                185,
+                225
+            ],
+            "future": [
+                187
+            ],
+            "work,": [
+                188
+            ],
+            "it": [
+                190
+            ],
+            "provides": [
+                191
+            ],
+            "useful": [
+                193
+            ],
+            "window": [
+                194
+            ],
+            "interplay": [
+                197
+            ],
+            "between": [
+                198
+            ],
+            "product": [
+                202
+            ],
+            "formation.": [
+                204,
+                217,
+                259
+            ],
+            "•": [
+                205,
+                218,
+                242
+            ],
+            "Validated": [
+                206
+            ],
+            "application": [
+                208
+            ],
+            "Sauerbrey’s": [
+                211
+            ],
+            "equation": [
+                212
+            ],
+            "for": [
+                213,
+                236,
+                245
+            ],
+            "Illustrated": [
+                219
+            ],
+            "use": [
+                221
+            ],
+            "from": [
+                226
+            ],
+            "distinctly": [
+                229
+            ],
+            "resolve": [
+                230
+            ],
+            "dynamics": [
+                235
+            ],
+            "versus": [
+                239
+            ],
+            "substrate.": [
+                241
+            ],
+            "Proposed": [
+                243
+            ],
+            "schematics": [
+                244
+            ],
+            "evolution": [
+                247
+            ],
+            "solution": [
+                251
+            ],
+            "due": [
+                252
+            ]
+        },
+        "counts_by_year": [],
+        "updated_date": "2026-05-21T06:26:12.895304",
+        "created_date": "2026-05-08T00:00:00"
+    }
+]
