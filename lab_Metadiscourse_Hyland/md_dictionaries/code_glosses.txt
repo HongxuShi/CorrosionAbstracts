@@ -1,0 +1,48 @@
+# Code Glosses — 语码注释标记
+# 来源: Hyland (2005) + 腐蚀科学领域补充
+# 功能: 对前述内容进行解释、重述、举例说明
+
+# ---- Reformulation (重述/改写) ----
+that is
+that is to say
+in other words
+namely
+i.e.
+specifically
+this means
+which means
+that means
+more precisely
+strictly speaking
+to put it another way
+in the sense that
+i.e. namely
+
+# ---- Exemplification (举例/具体化) ----
+such as
+for example
+for instance
+e.g.
+as an example
+as an illustration
+like
+including
+particularly
+in particular
+especially
+notably
+among which
+among them
+to illustrate
+to demonstrate
+
+# ---- Definition/ Clarification (定义/澄清) ----
+defined as
+known as
+referred to as
+called
+termed
+denoted
+so-called
+in the form of
+in the case of

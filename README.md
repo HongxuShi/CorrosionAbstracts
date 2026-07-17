@@ -132,3 +132,33 @@ OpenAlex 数据采集
 - [ ] 根据语言特征指标引入新的分析方法
 
 
+
+---
+
+## 项目结构
+
+```
+CorrosionAbstracts/
+├── scripts/                         # 可执行脚本
+│   ├── fetch_journal.py             #   单期刊 OpenAlex 数据采集
+│   ├── extract_features.py          #   六大文体特征 + NCC 提取
+│   └── merge_datasets.py            #   多期刊特征数据汇合
+├── data/                            # 参考词表
+│   ├── essential-word-list.txt      #   停用词表（176词）
+│   ├── hedge_data.txt               #   模糊限制语词表（162词）
+│   └── df_j.txt                     #   腐蚀领域术语表（289词）
+├── raw/                             # 原始采集数据（OpenAlex API 输出）
+├── processed/                       # 特征提取后的 CSV
+├── notebooks/                       # 分析 Notebook
+├── docs/                            # 项目文档
+│   ├── workflow.md                  #   操作流程
+│   └── 扩大数据集.md                #   数据集扩展方案
+├── baseline/                        # 基线阶段成果（归档参考）
+│   ├── data/                        #   基线数据集
+│   ├── notebooks/                   #   基线 Notebook（含 FeatureEngineer 等）
+│   ├── manuscripts/                 #   报告与 PPT
+│   └── figures/                     #   图表
+├── results/                         # 分析输出（图表、模型）
+├── environment.yml                  # Conda 环境配置
+└── .gitignore
+```

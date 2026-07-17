@@ -1,0 +1,52 @@
+# Self-Mentions — 作者自我指称
+# 来源: Hyland (2005) Metadiscourse Appendix + 腐蚀科学领域补充
+# 功能: 作者在文本中的显性存在
+
+# ---- First person pronouns ----
+we
+our
+us
+i
+my
+me
+
+# ---- Authorial references ----
+the author
+the authors
+the researcher
+the researchers
+the investigator
+the investigators
+the present authors
+the present researcher
+
+# ---- Impersonal authorial references ----
+this study
+this research
+this paper
+this article
+this work
+this investigation
+this review
+this analysis
+the present study
+the present work
+the present paper
+the present research
+the present investigation
+our study
+our work
+our research
+our investigation
+our analysis
+our results
+our findings
+our data
+our experiments
+our measurements
+our observations
+our calculations
+our simulations
+our approach
+our method
+our model

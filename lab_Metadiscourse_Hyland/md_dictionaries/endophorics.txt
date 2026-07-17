@@ -1,0 +1,52 @@
+# Endophoric Markers — 内部指称标记
+# 来源: Hyland (2005) + 腐蚀科学领域补充
+# 功能: 指向文中其他部分（图表、章节、公式、上文等）
+
+# ---- Figure/Table references ----
+as shown in
+as illustrated in
+as seen in
+as presented in
+as depicted in
+are shown in
+are presented in
+are given in
+are listed in
+are summarized in
+see figure
+see table
+see fig
+see eq
+in figure
+in table
+in fig
+in eq
+shown in figure
+shown in fig
+shown in table
+presented in figure
+presented in fig
+presented in table
+
+# ---- Section references ----
+in section
+in the following section
+in the next section
+in the previous section
+as discussed
+as mentioned
+as noted
+as described
+as explained
+as stated
+as outlined
+above
+below
+aforementioned
+the former
+the latter
+
+# ---- Equation references ----
+in equation
+in eq
+according to eq

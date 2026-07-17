@@ -1,0 +1,38 @@
+# 劝说性动词词典 — 用于Dimension 3相关特征
+# 来源：Biber (1988) MD分析中的suasive verbs
+# 这些动词表示建议、推荐、要求、敦促等言语行为
+
+suggest
+recommend
+propose
+urge
+advise
+insist
+demand
+require
+request
+ask
+beg
+plead
+implore
+petition
+mandate
+prescribe
+stipulate
+dictate
+instruct
+direct
+order
+command
+call for
+argue for
+advocate
+endorse
+support
+encourage
+prompt
+press
+push
+appeal
+entreat
+exhort

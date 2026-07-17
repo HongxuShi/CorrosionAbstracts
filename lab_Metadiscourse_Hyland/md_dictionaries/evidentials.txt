@@ -1,0 +1,60 @@
+# Evidentials — 外部证据引用标记
+# 来源: Hyland (2005) + 腐蚀科学领域补充
+# 功能: 引用外部研究/文献作为论证支持
+
+# ---- Citation verbs ----
+according to
+reported
+reported by
+reported that
+stated that
+stated by
+demonstrated by
+demonstrated that
+shown by
+shown that
+found that
+found by
+observed by
+observed that
+noted that
+noted by
+proposed by
+suggested by
+indicated that
+indicated by
+described by
+described that
+established by
+confirmed by
+
+# ---- Citation nouns ----
+previous studies
+previous work
+previous research
+the literature
+prior work
+prior studies
+prior research
+earlier work
+earlier studies
+recent studies
+recent work
+recent research
+other studies
+other work
+other researchers
+several studies
+numerous studies
+many studies
+various studies
+it has been shown
+it has been reported
+it has been demonstrated
+it has been found
+it has been suggested
+it has been proposed
+it is known that
+it is well known
+it is generally accepted
+it is widely recognized

@@ -1,0 +1,51 @@
+# 交流动词词典 — 用于Dimension 3相关特征
+# 来源：Biber (1988) MD分析中的communication verbs
+# 每行一个动词（词形还原后的基本形式）
+
+report
+state
+argue
+claim
+describe
+discuss
+announce
+declare
+explain
+mention
+assert
+contend
+maintain
+note
+observe
+remark
+comment
+say
+tell
+inform
+notify
+communicate
+express
+present
+outline
+summarize
+emphasize
+stress
+highlight
+point out
+demonstrate
+illustrate
+show
+reveal
+disclose
+acknowledge
+confirm
+affirm
+allege
+testify
+respond
+reply
+answer
+address
+speak
+talk
+converse

@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MD分析可行性评估报告 — Multi-Dimensional Analysis Report</title>
+
+<style>
+/* ===== 基础样式 ===== */
+:root {
+    --primary: #1a365d;
+    --secondary: #2b6cb0;
+    --accent: #e53e3e;
+    --bg: #f7fafc;
+    --card-bg: #ffffff;
+    --border: #e2e8f0;
+    --text: #2d3748;
+    --text-light: #718096;
+    --success: #38a169;
+    --warning: #dd6b20;
+    --danger: #e53e3e;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                 "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+}
+
+/* ===== 容器 ===== */
+.container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+
+/* ===== 页眉 ===== */
+.page-header {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: white;
+    padding: 48px 20px 36px;
+    text-align: center;
+}
+.page-header h1 { font-size: 2em; margin-bottom: 8px; }
+.page-header .subtitle { font-size: 1.1em; opacity: 0.85; }
+.page-header .meta { font-size: 0.9em; opacity: 0.7; margin-top: 12px; }
+
+/* ===== 章节 ===== */
+.section {
+    background: var(--card-bg);
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    margin: 24px 0;
+    overflow: hidden;
+}
+.section-header {
+    background: var(--primary);
+    color: white;
+    padding: 16px 24px;
+    font-size: 1.25em;
+    font-weight: 600;
+}
+.section-body { padding: 24px; }
+
+/* ===== 表格 ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92em;
+    margin: 12px 0;
+}
+th {
+    background: #edf2f7;
+    color: var(--primary);
+    font-weight: 600;
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 2px solid var(--border);
+    white-space: nowrap;
+}
+td {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border);
+}
+tr:hover { background: #f7fafc; }
+
+/* 数值单元格右对齐 */
+td.numeric { text-align: right; font-family: "SF Mono", "Consolas", monospace; }
+
+/* ===== 载荷高亮 ===== */
+.loading-positive { color: var(--success); font-weight: 600; }
+.loading-negative { color: var(--accent); font-weight: 600; }
+.loading-neutral  { color: var(--text-light); }
+
+/* ===== 统计卡片 ===== */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin: 16px 0;
+}
+.stat-card {
+    background: linear-gradient(135deg, #ebf4ff, #f0fff4);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 16px;
+    text-align: center;
+}
+.stat-card .value { font-size: 1.8em; font-weight: 700; color: var(--secondary); }
+.stat-card .label { font-size: 0.85em; color: var(--text-light); margin-top: 4px; }
+
+/* ===== 状态标记 ===== */
+.badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.82em;
+    font-weight: 600;
+}
+.badge-pass  { background: #c6f6d5; color: #22543d; }
+.badge-warn  { background: #fefcbf; color: #744210; }
+.badge-fail  { background: #fed7d7; color: #822727; }
+.badge-info  { background: #bee3f8; color: #2a4365; }
+
+/* ===== 判词 (Verdict) ===== */
+.verdict-box {
+    padding: 20px 24px;
+    border-radius: 8px;
+    margin: 16px 0;
+    font-size: 1.05em;
+    font-weight: 500;
+    line-height: 1.6;
+}
+.verdict-suitable     { background: #c6f6d5; border-left: 4px solid var(--success); }
+.verdict-conditional  { background: #fefcbf; border-left: 4px solid var(--warning); }
+.verdict-marginal     { background: #feebc8; border-left: 4px solid #ed8936; }
+.verdict-unsuitable   { background: #fed7d7; border-left: 4px solid var(--danger); }
+
+/* ===== 维度解读 ===== */
+.dim-interp {
+    background: #f7fafc;
+    border-left: 3px solid var(--secondary);
+    padding: 12px 16px;
+    margin: 12px 0;
+    border-radius: 0 6px 6px 0;
+}
+
+/* ===== 警告/建议列表 ===== */
+.warning-list { list-style: none; padding: 0; }
+.warning-list li {
+    padding: 8px 12px;
+    margin: 6px 0;
+    border-radius: 4px;
+    background: #fffff0;
+    border: 1px solid #fefcbf;
+}
+.recommendation-list { list-style: none; padding: 0; }
+.recommendation-list li {
+    padding: 8px 12px;
+    margin: 6px 0;
+    border-radius: 4px;
+    background: #f0fff4;
+    border: 1px solid #c6f6d5;
+}
+.recommendation-list li::before { content: "💡 "; }
+
+/* ===== 图表占位 ===== */
+.chart-placeholder {
+    background: #f7fafc;
+    border: 2px dashed var(--border);
+    border-radius: 8px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-light);
+    font-size: 1.1em;
+    margin: 16px 0;
+}
+
+/* ===== 页脚 ===== */
+.footer {
+    text-align: center;
+    padding: 24px;
+    color: var(--text-light);
+    font-size: 0.85em;
+    border-top: 1px solid var(--border);
+    margin-top: 32px;
+}
+
+/* ===== 响应式 ===== */
+@media (max-width: 768px) {
+    .container { padding: 12px; }
+    .section-body { padding: 16px; }
+    table { font-size: 0.8em; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+}
+</style>
+</head><body>
+
+<div class="page-header">
+    <h1>MD分析可行性评估报告</h1>
+    <div class="subtitle">Multi-Dimensional Analysis Feasibility Report</div>
+    <div class="meta">
+        基于Biber (1988)多维分析框架 | 生成时间: 2026-07-17 17:12:22
+         | 输入文件: merged_all_features.csv
+    </div>
+</div>
+<div class="container">
+
+<div class="section">
+    <div class="section-header">1. 数据集概览 (Dataset Overview)</div>
+    <div class="section-body">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="value">5821</div>
+                <div class="label">原始记录数</div>
+            </div>
+            <div class="stat-card">
+                <div class="value">5788</div>
+                <div class="label">有效处理数</div>
+            </div>
+            <div class="stat-card">
+                <div class="value">175.9</div>
+                <div class="label">平均词数/摘要</div>
+            </div>
+            <div class="stat-card">
+                <div class="value">1,018,348</div>
+                <div class="label">总词数</div>
+            </div>
+        </div>
+        <table>
+            <tr><th>指标</th><th>值</th></tr>
+            <tr><td>原始输入记录</td><td class="numeric">5821</td></tr>
+            <tr><td>空文本/无效</td><td class="numeric">0</td></tr>
+            <tr><td>NLP处理失败</td><td class="numeric">0</td></tr>
+            <tr><td>过短(被过滤)</td><td class="numeric">33</td></tr>
+            <tr><td><strong>有效处理</strong></td><td class="numeric"><strong>5788</strong></td></tr>
+            <tr><td>成功率</td><td class="numeric">99.4%</td></tr>
+            <tr><td>平均词长</td><td class="numeric">175.9 (中位数: 165.0)</td></tr>
+            <tr><td>词数范围</td><td class="numeric">30 - 4998 (标准差: 93.9)</td></tr>
+        </table>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-header">2. 语言特征统计 (Linguistic Feature Statistics)</div>
+    <div class="section-body">
+        <p>共提取 <strong>15</strong> 个语言特征，
+        覆盖 <strong>5788</strong> 篇摘要。
+        所有比率型特征已归一化到文本总词数。</p>
+
+        <div style="overflow-x: auto;">
+        <table>
+            <thead>
+                <tr>
+                    <th>特征 (Feature)</th>
+                    <th>样本数</th>
+                    <th>均值 (Mean)</th>
+                    <th>标准差 (Std)</th>
+                    <th>最小值</th>
+                    <th>中位数</th>
+                    <th>最大值</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td title="过去时动词比率。统计VBD标签词数/总词数。高频值表示文本偏向叙事/报告风格，属于Dimension 1。">past_tense_ratio</td>
+                <td class="numeric">5788</td>
+                <td class="numeric">0.0278</td>
+                <td class="numeric">0.0207</td>
+                <td class="numeric">0.0000</td>
+                <td class="numeric">0.0268</td>
+                <td class="numeric">0.1031</td>
+            </tr>
+            <tr>
+                <td title="现在时动词比率。统计VBP+VBZ标签词数/总词数。高频值表示文本偏向即时/互动风格，属于Dimension 1。">present_tense_ratio</td>
+                <td class="numeric">5788</td>
+                <td class="numeric">0.0284</td>
+                <td class="numeric">0.0198</td>
+                <td class="numeric">0.0000</td>
+                <td class="numeric">0.0266</td>
+                <td class="numeric">0.1143</td>
+            </tr>
+            <tr>
+                <td title="被动语态比率。统计auxpass依存关系数/总词数。高频值表示文本使用大量被动结构，常见于学术写作。属于Dimension 1。">passive_ratio</td>
+                <td class="numeric">5788</td>
+                <td class="numeric">0.0227</td>
+                <td class="numeric">0.0116</td>
+                <td class="numeric">0.0000</td>
+                <td class="numeric">0.0214</td>
+                <td class="numeric">0.0918</td>
+            </tr>
+            <tr>
+                <td title="立场动词+that从句比率。检测如'suggest that'、'indicate that'等结构。表示作者对所述内容表达了主观立场。属于Dimension 1。">stance_verb_ratio</td>
+                <td class="numeric">5788</td>
+                <td class="numeric">0.0044</td>
+                <td class="numeric">0.0051</td>
+                <td class="numeric">0.0000</td>
+                <td class="numeric">0.0039</td>
+                <td class="numeric">0.0348</td>
+            </tr>
+            <tr>
+                <td title="心理动词比率。词典匹配（如believe, assume, consider等）。表示认知/心理过程的提及。属于Dimension 1。">mental_verb_ratio</td>
+                <td class="numeric">5788</td>
+                <td class="numeric">0.0059</td>
+                <td class="numeric">0.0058</td>
+                <td class="numeric">0.0000</td>
+                <td class="numeric">0.0055</td>
+                <td class="numeric">0.0460</td>
+            </tr>
+            <tr>
+                <td title="可能性情态比率。词典匹配（如may, might, could, possibly等）。表示作者对所述命题的不确定性态度。属于Dimension 2。">modal_possibility_ratio</td>
+                <td class="numeric">5788</td>
+                <td class="numeric">0.0051</td>
+                <td class="numeric">0.0048</td>
+                <td class="numeric">0.0000</td>
+                <td class="numeric">0.0051</td>
+                <td class="numeric">0.0306</td>
+            </tr>
+            <tr>
+                <td title="预测性情态比率。词典匹配（如will, likely, predict, expected等）。表示对未来事态或结果的预测。属于Dimension 2。">modal_prediction_ratio</td>
+                <td class="numeric">5788</td>
+                <td class="numeric">0.0022</td>
+                <td class="numeric">0.0047</td>
+                <td class="numeric">0.0000</td>
+                <td class="numeric">0.0000</td>
+                <td class="numeric">0.0392</td>
+            </tr>
+            <tr>
+                <td title="关系从句比率。统计relcl依存关系数/总词数。关系从句用于提供补充信息，使文本更复杂。属于Dimension 2。">relative_clause_ratio</td>
+                <td class="numeric">5788</td>
+                <td class="numeric">0.0043</td>
+                <td class="numeric">0.0056</td>
+                <td class="numeric">0.0000</td>
+                <td class="numeric">0.0000</td>
+                <td class="numeric">0.0455</td>
+            </tr>
+            <tr>
+                <td title="交流动词比率。词典匹配（如report, state, argue, describe等）。高频值表示文本关注学术交流行为。属于Dimension 3。">communication_verb_ratio</td>
+                <td class="numeric">5788</td>
+                <td class="numeric">0.0106</td>
+                <td class="numeric">0.0076</td>
+                <td class="numeric">0.0000</td>
+                <td class="numeric">0.0096</td>
+                <td class="numeric">0.0612</td>
+            </tr>
+            <tr>
+                <td title="劝说性动词比率。词典匹配（如suggest, recommend, propose等）。表示文本包含建议、推荐等劝说性言语行为。属于Dimension 3。">suasive_verb_ratio</td>
+                <td class="numeric">5788</td>
+                <td class="numeric">0.0032</td>
+                <td class="numeric">0.0046</td>
+                <td class="numeric">0.0000</td>
+                <td class="numeric">0.0000</td>
+                <td class="numeric">0.0377</td>
+            </tr>
+            <tr>
+                <td title="前置名词修饰比率。检测NOUN+NOUN序列。高频值是科技英语的典型特征（如'corrosion resistance'）。属于Dimension 4。">noun_modifier_ratio</td>
+                <td class="numeric">5788</td>
+                <td class="numeric">0.0985</td>
+                <td class="numeric">0.0370</td>
+                <td class="numeric">0.0000</td>
+                <td class="numeric">0.0952</td>
+                <td class="numeric">0.2642</td>
+            </tr>
+            <tr>
+                <td title="抽象名词比率。词典匹配（如method, process, system, analysis等）。表示文本的概念/抽象层面。属于Dimension 4。">abstract_noun_ratio</td>
+                <td class="numeric">5788</td>
+                <td class="numeric">0.0378</td>
+                <td class="numeric">0.0178</td>
+                <td class="numeric">0.0000</td>
+                <td class="numeric">0.0364</td>
+                <td class="numeric">0.1957</td>
+            </tr>
+            <tr>
+                <td title="名词化比率。统计以-tion/-ment/-ance/-ity等后缀结尾的词。高频值表示文本高度名词化（学术写作的标志）。属于Dimension 4。">nominalization_ratio</td>
+                <td class="numeric">5788</td>
+                <td class="numeric">0.1199</td>
+                <td class="numeric">0.0344</td>
+                <td class="numeric">0.0000</td>
+                <td class="numeric">0.1188</td>
+                <td class="numeric">0.2753</td>
+            </tr>
+            <tr>
+                <td title="人类指称名词比率。词典匹配（如researcher, author, we等）。表示文本中对人类主体的指称程度。辅助特征。">human_noun_ratio</td>
+                <td class="numeric">5788</td>
+                <td class="numeric">0.0091</td>
+                <td class="numeric">0.0070</td>
+                <td class="numeric">0.0000</td>
+                <td class="numeric">0.0078</td>
+                <td class="numeric">0.1800</td>
+            </tr>
+            <tr>
+                <td title="平均词长。所有词的字符数均值。较高值通常表示更学术/正式的写作风格。辅助特征。">word_length</td>
+                <td class="numeric">5788</td>
+                <td class="numeric">5.5726</td>
+                <td class="numeric">0.4594</td>
+                <td class="numeric">3.7730</td>
+                <td class="numeric">5.5775</td>
+                <td class="numeric">7.5746</td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+
+        <p style="margin-top:16px; color:var(--text-light); font-size:0.85em;">
+            💡 提示：鼠标悬停在特征名上可查看特征描述和计算方法。
+            标准差为0的特征表示该语言现象在所有摘要中出现频率一致，不具区分度。
+        </p>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-header">3. PCA分析结果 (Principal Component Analysis)</div>
+    <div class="section-body">
+        <p>对标准化后的特征矩阵执行PCA降维（n_components=4），
+        随后进行了Promax旋转以增强因子可解释性。
+        </p>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="value">5788</div>
+                <div class="label">样本量</div>
+            </div>
+            <div class="stat-card">
+                <div class="value">15</div>
+                <div class="label">输入特征数</div>
+            </div>
+            <div class="stat-card">
+                <div class="value">4</div>
+                <div class="label">提取维度数</div>
+            </div>
+            <div class="stat-card">
+                <div class="value">44.4%</div>
+                <div class="label">累计解释方差</div>
+            </div>
+        </div>
+
+        <h3 style="margin-top:20px;">各维度解释方差</h3>
+        <table>
+            <thead>
+                <tr><th>维度</th><th>解释方差</th><th>累计</th><th>类型</th></tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Dimension 1</td>
+                <td class="numeric">15.00%</td>
+                <td class="numeric">15.00%</td>
+                <td><span class="badge badge-info">主要维度</span></td>
+            </tr>
+            <tr>
+                <td>Dimension 2</td>
+                <td class="numeric">12.19%</td>
+                <td class="numeric">27.19%</td>
+                <td><span class="badge badge-info">主要维度</span></td>
+            </tr>
+            <tr>
+                <td>Dimension 3</td>
+                <td class="numeric">9.47%</td>
+                <td class="numeric">36.66%</td>
+                <td><span class="badge badge-info">次要维度</span></td>
+            </tr>
+            <tr>
+                <td>Dimension 4</td>
+                <td class="numeric">7.75%</td>
+                <td class="numeric">44.41%</td>
+                <td><span class="badge badge-info">次要维度</span></td>
+            </tr></tbody>
+        </table>
+        <p style="margin-top:8px;">📊 累计解释方差处于合理范围内。参考论文中四个因素累计解释约38%的方差。在学术摘要语料中，由于文本较短且风格相对一致，解释方差可能低于Biber的原始研究。</p>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-header">4. 因子载荷矩阵 (Factor Loading Matrix)</div>
+    <div class="section-body">
+        <p>下表展示了每个语言特征在各维度上的因子载荷（旋转后）。
+        载荷值表示特征与维度之间的相关性强度。</p>
+
+        <p style="font-size:0.9em;">
+            📐 <strong>阅读指南：</strong>
+            <span style="color:var(--success);">绿色粗体</span> = 强正载荷 (≥0.50)；
+            <span style="color:var(--accent);">红色粗体</span> = 强负载荷 (≤-0.50)；
+            <span style="color:var(--success);">绿色</span> = 中等正载荷 (0.30-0.50)；
+            <span style="color:var(--accent);">红色</span> = 中等负载荷 (-0.50~-0.30)；
+            <span style="color:var(--text-light);">灰色</span> = 弱载荷 (|loading| < 0.30)
+        </p>
+
+        <div style="overflow-x: auto;">
+        <table>
+            <thead>
+                <tr><th>特征 (Feature)</th><th>Dim1</th><th>Dim2</th><th>Dim3</th><th>Dim4</th></tr>
+            </thead>
+            <tbody><tr><td>past_tense_ratio</td><td class="numeric loading-neutral">-0.0078</td><td class="numeric loading-positive"><strong>0.8987</strong></td><td class="numeric loading-neutral">-0.0896</td><td class="numeric loading-neutral">0.0878</td></tr><tr><td>present_tense_ratio</td><td class="numeric loading-neutral">-0.0017</td><td class="numeric loading-negative"><strong>-0.8843</strong></td><td class="numeric loading-neutral">0.0783</td><td class="numeric loading-neutral">0.1750</td></tr><tr><td>passive_ratio</td><td class="numeric loading-neutral">-0.0438</td><td class="numeric loading-positive">0.4203</td><td class="numeric loading-positive">0.4165</td><td class="numeric loading-neutral">-0.0214</td></tr><tr><td>stance_verb_ratio</td><td class="numeric loading-neutral">-0.0317</td><td class="numeric loading-neutral">0.0228</td><td class="numeric loading-neutral">-0.2104</td><td class="numeric loading-positive"><strong>0.7593</strong></td></tr><tr><td>mental_verb_ratio</td><td class="numeric loading-neutral">0.0536</td><td class="numeric loading-neutral">0.0150</td><td class="numeric loading-positive">0.4332</td><td class="numeric loading-positive">0.3216</td></tr><tr><td>modal_possibility_ratio</td><td class="numeric loading-neutral">0.0041</td><td class="numeric loading-neutral">0.0510</td><td class="numeric loading-positive"><strong>0.5335</strong></td><td class="numeric loading-neutral">-0.1140</td></tr><tr><td>modal_prediction_ratio</td><td class="numeric loading-neutral">0.0998</td><td class="numeric loading-neutral">-0.0768</td><td class="numeric loading-positive"><strong>0.6386</strong></td><td class="numeric loading-negative">-0.3317</td></tr><tr><td>relative_clause_ratio</td><td class="numeric loading-neutral">-0.1391</td><td class="numeric loading-neutral">-0.2188</td><td class="numeric loading-positive">0.4163</td><td class="numeric loading-neutral">-0.0811</td></tr><tr><td>communication_verb_ratio</td><td class="numeric loading-neutral">0.0239</td><td class="numeric loading-neutral">-0.0968</td><td class="numeric loading-neutral">-0.0064</td><td class="numeric loading-positive"><strong>0.6693</strong></td></tr><tr><td>suasive_verb_ratio</td><td class="numeric loading-neutral">0.0649</td><td class="numeric loading-neutral">-0.0952</td><td class="numeric loading-positive">0.3385</td><td class="numeric loading-neutral">0.1360</td></tr><tr><td>noun_modifier_ratio</td><td class="numeric loading-positive"><strong>0.6343</strong></td><td class="numeric loading-neutral">0.1357</td><td class="numeric loading-neutral">-0.0738</td><td class="numeric loading-neutral">-0.1629</td></tr><tr><td>abstract_noun_ratio</td><td class="numeric loading-positive"><strong>0.6825</strong></td><td class="numeric loading-neutral">-0.0884</td><td class="numeric loading-neutral">0.1276</td><td class="numeric loading-neutral">0.0804</td></tr><tr><td>nominalization_ratio</td><td class="numeric loading-positive"><strong>0.7780</strong></td><td class="numeric loading-neutral">-0.0364</td><td class="numeric loading-neutral">-0.0830</td><td class="numeric loading-neutral">-0.0162</td></tr><tr><td>human_noun_ratio</td><td class="numeric loading-neutral">-0.0202</td><td class="numeric loading-neutral">0.0720</td><td class="numeric loading-neutral">0.1749</td><td class="numeric loading-neutral">0.1060</td></tr><tr><td>word_length</td><td class="numeric loading-positive"><strong>0.7515</strong></td><td class="numeric loading-neutral">-0.0303</td><td class="numeric loading-neutral">0.0844</td><td class="numeric loading-neutral">0.1047</td></tr></tbody>
+        </table>
+        </div>
+
+        <p style="margin-top:12px; color:var(--text-light); font-size:0.85em;">
+            💡 提示：强载荷特征（|loading| ≥ 0.30）是该维度的主要语言学贡献者，
+            用于解读维度的功能含义。通常一个维度由2-5个显著特征定义。
+        </p>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-header">5. 维度解读 (Dimension Interpretation)</div>
+    <div class="section-body">
+        <p>基于因子载荷矩阵自动生成各维度的语言学解读。
+        每个维度由载荷绝对值最高的特征定义。</p>
+        
+            <div class="dim-interp">
+                <h4>Dim1</h4>
+                <p><strong>正载荷特征：</strong> <strong>nominalization_ratio</strong> (0.778), <strong>word_length</strong> (0.751), <strong>abstract_noun_ratio</strong> (0.682), <strong>noun_modifier_ratio</strong> (0.634)</p>
+                <p><strong>负载荷特征：</strong> 无显著负载荷特征</p>
+                <p style="color:var(--text-light);">
+                    正载荷高的特征在该维度上共同出现，负载荷高的特征则倾向于排斥。
+                    维度含义需要通过这些特征的语言学功能来推断。
+                </p>
+            </div>
+            <div class="dim-interp">
+                <h4>Dim2</h4>
+                <p><strong>正载荷特征：</strong> <strong>past_tense_ratio</strong> (0.899), <strong>passive_ratio</strong> (0.420)</p>
+                <p><strong>负载荷特征：</strong> <strong>present_tense_ratio</strong> (-0.884), <strong>relative_clause_ratio</strong> (-0.219)</p>
+                <p style="color:var(--text-light);">
+                    正载荷高的特征在该维度上共同出现，负载荷高的特征则倾向于排斥。
+                    维度含义需要通过这些特征的语言学功能来推断。
+                </p>
+            </div>
+            <div class="dim-interp">
+                <h4>Dim3</h4>
+                <p><strong>正载荷特征：</strong> <strong>modal_prediction_ratio</strong> (0.639), <strong>modal_possibility_ratio</strong> (0.533), <strong>mental_verb_ratio</strong> (0.433), <strong>passive_ratio</strong> (0.416), <strong>relative_clause_ratio</strong> (0.416)</p>
+                <p><strong>负载荷特征：</strong> <strong>stance_verb_ratio</strong> (-0.210)</p>
+                <p style="color:var(--text-light);">
+                    正载荷高的特征在该维度上共同出现，负载荷高的特征则倾向于排斥。
+                    维度含义需要通过这些特征的语言学功能来推断。
+                </p>
+            </div>
+            <div class="dim-interp">
+                <h4>Dim4</h4>
+                <p><strong>正载荷特征：</strong> <strong>stance_verb_ratio</strong> (0.759), <strong>communication_verb_ratio</strong> (0.669), <strong>mental_verb_ratio</strong> (0.322)</p>
+                <p><strong>负载荷特征：</strong> <strong>modal_prediction_ratio</strong> (-0.332)</p>
+                <p style="color:var(--text-light);">
+                    正载荷高的特征在该维度上共同出现，负载荷高的特征则倾向于排斥。
+                    维度含义需要通过这些特征的语言学功能来推断。
+                </p>
+            </div>
+
+        <h4 style="margin-top:16px;">维度假说（参考Biber 1988框架）</h4>
+        <table>
+            <tr><td><strong>Dimension 1</strong></td><td>互动/立场表达 vs. 信息传递 (Involved vs. Informational Production)</td></tr>
+            <tr><td><strong>Dimension 2</strong></td><td>叙事 vs. 非叙事 (Narrative vs. Non-Narrative Concerns)</td></tr>
+            <tr><td><strong>Dimension 3</strong></td><td>上下文独立 vs. 上下文依赖 (Context-Independent vs. Context-Dependent)</td></tr>
+            <tr><td><strong>Dimension 4</strong></td><td>抽象风格 vs. 具体风格 (Abstract vs. Non-Abstract Style)</td></tr>
+        </table>
+        <p style="color:var(--text-light); font-size:0.85em;">
+            ⚠️ 以上为Biber原始框架中的维度假说。实际维度含义取决于本数据集的特征载荷模式，
+            可能与Biber的原始维度不完全对应。建议结合领域知识进行专业判断。
+        </p>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-header">6. 数据适配性评估 (Data Suitability Assessment)</div>
+    <div class="section-body">
+        <h3>综合判断</h3>
+        <div class="verdict-box verdict-info">
+            未知
+        </div>
+
+        <h3>检测详情</h3>
+        <table>
+            <thead>
+                <tr><th>检测项目</th><th>结果</th><th>评估</th><th>状态</th></tr>
+            </thead>
+            <tbody>
+        <tr>
+            <td>样本量 (Sample Size)</td>
+            <td class="numeric">5788 篇</td>
+            <td>较稳定</td>
+            <td><span class="badge badge-pass">✓ 通过</span></td>
+        </tr>
+        <tr>
+            <td>KMO检验</td>
+            <td class="numeric">0.5174</td>
+            <td>不适合</td>
+            <td><span class="badge badge-info">? 未计算</span></td>
+        </tr>
+        <tr>
+            <td>Bartlett球形检验</td>
+            <td class="numeric">p=0.0</td>
+            <td>显著</td>
+            <td><span class="badge badge-pass">✓ 通过</span></td>
+        </tr>
+        <tr>
+            <td>特征方差检查</td>
+            <td class="numeric">0 低方差特征</td>
+            <td>正常</td>
+            <td><span class="badge badge-pass">✓ 全部通过</span></td>
+        </tr></tbody>
+        </table>
+
+        
+
+        
+
+        <div class="dim-interp" style="margin-top:20px;">
+            <strong>📖 参考标准：</strong><br>
+            • 样本量：Biber (1988) 使用约1000篇文本；N ≥ 500为较适合<br>
+            • KMO：≥ 0.6 可接受，≥ 0.8 良好<br>
+            • Bartlett：p < 0.05 表示数据适合因子分析<br>
+            • 参考论文中四个因素累计解释约38.143%的方差
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-header">7. 结论与后续建议 (Conclusions & Next Steps)</div>
+    <div class="section-body">
+        <h3>当前状态</h3>
+        <p>
+        本报告基于 5788 篇科技论文摘要，
+        提取了 15 个Biber风格语言特征，
+        通过PCA降维到 4 个维度（累计解释方差 44.4%）。
+        </p>
+        <p><strong>综合判断：</strong>未知</p>
+
+        <h3 style="margin-top:20px;">后续扩展方向</h3>
+        <table>
+            <tr><td>📈</td><td><strong>扩充特征集</strong>：在现有15个特征基础上，扩展至Biber的67个特征体系</td></tr>
+            <tr><td>📊</td><td><strong>引入引用影响力</strong>：将citation impact作为外部变量，探索语言风格与学术影响力的关联</td></tr>
+            <tr><td>🧠</td><td><strong>Embedding融合</strong>：结合深度学习embedding（如SciBERT）与传统MD分析，构建混合模型</td></tr>
+            <tr><td>🎯</td><td><strong>预测模型</strong>：建立"科学论文语言风格 → 学术影响力"的预测模型</td></tr>
+            <tr><td>📚</td><td><strong>扩大数据规模</strong>：纳入更多期刊、更多领域、更多年份的数据</td></tr>
+        </table>
+
+        <p style="color:var(--text-light); font-size:0.85em; margin-top:16px;">
+            ⚠️ 免责声明：本工具为轻量化MD分析原型，结果仅供参考。完整的Biber MD分析
+            需要更全面的特征集、更大规模的语料和更深入的领域知识。
+        </p>
+    </div>
+</div>
+
+</div><!-- .container -->
+<div class="footer">
+    <p>MD Analysis Feasibility Testing Tool v0.1.0</p>
+    <p>基于 Biber (1988) Multi-Dimensional Analysis 框架</p>
+    <p>生成时间: 2026-07-17 17:12:22</p>
+</div>
+</body></html>

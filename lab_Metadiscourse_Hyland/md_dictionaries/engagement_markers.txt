@@ -1,0 +1,77 @@
+# Engagement Markers — 读者介入标记
+# 来源: Hyland (2005) Metadiscourse Appendix + 腐蚀科学领域补充
+# 功能: 直接呼唤/引导读者注意力和参与
+
+# ---- Imperatives / Directives ----
+note that
+notice that
+see that
+consider
+observe
+recall
+remember
+refer to
+consult
+compare
+contrast
+imagine
+suppose
+assume
+let us
+
+# ---- Inclusives (包含读者) ----
+we
+us
+our
+let us
+together
+
+# ---- Questions ----
+?
+what is
+how does
+why
+is it
+
+# ---- Reader address ----
+the reader
+readers
+one can see
+one can note
+one can observe
+it can be seen
+it can be noted
+it can be observed
+it should be noted
+it must be noted
+it is worth noting
+it is worth mentioning
+it is interesting to note
+it is important to note
+attention should be paid
+it should be emphasized
+it should be stressed
+it should be pointed out
+it should be mentioned
+
+# ---- Necessity/Obligation modals ----
+must
+should
+have to
+need to
+ought to
+require
+necessary
+essential
+critical
+important
+vital
+imperative
+
+# ---- Knowledge sharing ----
+as is well known
+as we know
+commonly
+typically
+of course
+naturally

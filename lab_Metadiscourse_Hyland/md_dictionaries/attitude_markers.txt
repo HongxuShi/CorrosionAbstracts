@@ -1,0 +1,94 @@
+# Attitude Markers — 态度/评价标记
+# 来源: Hyland (2005) Metadiscourse Appendix + 腐蚀科学领域补充
+# 功能: 表达作者对所述内容的情感、评价、价值判断
+
+# ---- Positive evaluation ----
+importantly
+interestingly
+surprisingly
+remarkably
+strikingly
+fortunately
+encouragingly
+promisingly
+impressively
+curiously
+appropriately
+correctly
+effectively
+efficiently
+successfully
+properly
+adequately
+satisfactorily
+accurately
+precisely
+reliably
+robustly
+excellently
+ideally
+optimally
+advantageously
+beneficially
+usefully
+
+# ---- Negative evaluation ----
+unfortunately
+disappointingly
+surprisingly (negative context)
+regrettably
+problematically
+inadequately
+insufficiently
+unexpectedly
+paradoxically
+counterintuitively
+
+# ---- Value/Importance markers ----
+important
+crucial
+critical
+essential
+vital
+key
+fundamental
+central
+major
+significant
+notable
+noteworthy
+relevant
+pertinent
+meaningful
+valuable
+indispensable
+necessary
+
+# ---- Expectation markers ----
+expected
+unexpected
+surprising
+remarkable
+astonishing
+striking
+notable
+noteworthy
+impressive
+interesting
+intriguing
+fascinating
+
+# ---- Agreement/Preference ----
+desirable
+preferable
+favorable
+promising
+attractive
+appealing
+suitable
+appropriate
+feasible
+viable
+practical
+advantageous
+superior

@@ -1,0 +1,65 @@
+# Frame Markers — 文本结构标记
+# 来源: Hyland (2005) Metadiscourse Appendix + 腐蚀科学领域补充
+# 功能: 标示文本的组织结构、序列、目标、话题转换
+
+# ---- Sequencing (序列) ----
+first
+second
+third
+fourth
+firstly
+secondly
+thirdly
+finally
+lastly
+next
+then
+subsequently
+to begin
+to start
+in the first place
+
+# ---- Topic Shift (话题转换) ----
+now
+regarding
+with regard to
+in regard to
+as for
+as to
+turning to
+with respect to
+in terms of
+in relation to
+concerning
+
+# ---- Goal/ Purpose (目标/目的) ----
+the purpose of
+the aim of
+this paper
+the present work
+this study
+this research
+the objective of
+this article
+in this paper
+in this study
+in the present study
+in the present work
+herein
+we aim to
+the goal of
+this investigation
+the focus of
+this review
+this work
+
+# ---- Label Stages (阶段标记) ----
+to summarize
+in summary
+in conclusion
+to conclude
+overall
+in brief
+in short
+at this point
+on the whole

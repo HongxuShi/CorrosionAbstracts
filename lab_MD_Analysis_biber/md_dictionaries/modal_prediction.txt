@@ -1,0 +1,32 @@
+# 预测性情态词词典 — 用于Dimension 2相关特征
+# 来源：Biber (1988) MD分析中的prediction modals
+# 表示预测、未来导向的情态动词和形容词
+
+will
+likely
+expected
+predict
+predicted
+prediction
+shall
+going to
+about to
+be expected to
+be predicted to
+be likely to
+be going to
+would
+should
+ought to
+forecast
+forecasted
+project
+projected
+anticipate
+anticipated
+estimate
+estimated
+in the future
+eventually
+ultimately
+sooner or later

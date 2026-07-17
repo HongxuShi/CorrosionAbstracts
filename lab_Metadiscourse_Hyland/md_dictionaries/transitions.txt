@@ -1,0 +1,76 @@
+# Transitions — 逻辑过渡标记
+# 来源: Hyland (2005) Metadiscourse Appendix + 腐蚀科学领域补充
+# 功能: 表达句子之间的逻辑关系（因果、对比、递进、时序等）
+# 每行一个标记，支持多词短语
+
+# ---- Addition (递进/补充) ----
+in addition
+additionally
+also
+furthermore
+moreover
+besides
+by the same token
+similarly
+likewise
+equally
+in the same way
+not only
+as well as
+further
+
+# ---- Contrast (对比/转折) ----
+however
+but
+although
+nevertheless
+nonetheless
+yet
+whereas
+while
+in contrast
+on the contrary
+conversely
+on the other hand
+even though
+in spite of
+despite
+rather
+
+# ---- Consequence (因果/结果) ----
+therefore
+thus
+consequently
+hence
+accordingly
+as a result
+as a consequence
+for this reason
+owing to
+due to
+because
+since
+so
+thereby
+thereof
+lead to
+result in
+result from
+thereafter
+in turn
+
+# ---- Comparison (比较) ----
+compared to
+compared with
+in comparison
+by comparison
+relative to
+versus
+rather than
+more than
+less than
+
+# ---- Exemplification (举例) — 与code_glosses可能有少量重叠 ----
+for instance
+for example
+such as

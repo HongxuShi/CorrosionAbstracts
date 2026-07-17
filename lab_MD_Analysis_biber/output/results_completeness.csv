@@ -1,0 +1,2 @@
+scheme,mean_sentences,p50_sentences,mean_words,p50_words,has_numbers_pct,has_method_pct,has_conclusion_pct,has_result_pct,has_abbrev_pct,mean_completeness,complete_pct,completeness_vs_ncc_r,completeness_auc
+output,7.1744989633724945,7.0,171.15428472702143,161.0,0.8633379405666897,0.5746371803731859,0.7638217000691085,0.8204906703524534,0.7874913614374568,3.8097788527988943,0.675535590877678,-0.06310014745299182,0.8252637318387114

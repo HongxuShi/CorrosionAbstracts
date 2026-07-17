@@ -1,0 +1,2 @@
+scheme,n_types,type_distribution,type_acc,type_bl,type_f1,ncc_anova_f,ncc_anova_p
+output,3,"{'experimental': np.int64(5264), 'modeling': np.int64(423), 'review': np.int64(134)}",0.9043120510891848,0.9043119738876482,0.316583970964548,43.52171875439745,1.732823747921095e-19

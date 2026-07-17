@@ -1,0 +1,32 @@
+# 可能性情态词词典 — 用于Dimension 2相关特征
+# 来源：Biber (1988) MD分析中的possibility modals
+# 表示可能性、不确定性的情态动词和副词
+
+may
+might
+could
+possibly
+perhaps
+maybe
+probable
+probably
+possible
+potentially
+feasible
+feasibly
+conceivable
+conceivably
+can
+would
+should
+ought to
+likely
+unlikely
+it is possible
+it is probable
+there is a chance
+in all likelihood
+it seems
+it appears
+apparently
+seemingly

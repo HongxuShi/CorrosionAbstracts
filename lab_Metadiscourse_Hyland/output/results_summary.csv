@@ -1,0 +1,2 @@
+n_samples,n_features,regression_r2_ols,regression_adj_r2,regression_ridge_cv_r2,regression_lasso_cv_r2,regression_rf_cv_r2,best_pearson_r,best_pearson_feature,classification_best_auc,journal_accuracy,journal_baseline,journal_f1_macro,journal_best_ovr_auc
+5792,10,0.00766271973921917,0.005946170214464308,0.00251533347549302,0.0024846188506723486,0.003399044585721178,0.05096117170230188,frame_marker_ratio,0.5922457525480395,0.40883779566984224,0.313017955801105,0.25870660594194483,0.8742599005761461

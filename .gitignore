@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# 数据文件（取消注释以忽略大型数据文件）
+# 说明：
+#   - raw/     : OpenAlex API 原始输出，可从 API 重新获取
+#   - processed/: 特征提取后的 CSV，可从 raw/ 重新生成
+#   - results/ : 分析输出（图表、模型等）
+# 如果希望版本控制这些文件，请注释掉对应行。
+# ============================================================
+
+# raw/*.json
+# raw/*.csv
+# processed/*.csv
+# results/*

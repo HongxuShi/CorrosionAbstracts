@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{研究背景}{2}{0}{1}
+\beamer@sectionintoc {2}{数据规模}{3}{0}{2}
+\beamer@sectionintoc {3}{当前特征体系}{4}{0}{3}
+\beamer@sectionintoc {4}{测试一：Pearson 相关}{5}{0}{4}
+\beamer@sectionintoc {5}{测试二：K-Means 聚类}{6}{0}{5}
+\beamer@sectionintoc {6}{测试三：决策树}{7}{0}{6}
+\beamer@sectionintoc {7}{总体结论}{8}{0}{7}

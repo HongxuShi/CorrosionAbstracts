@@ -1,0 +1,89 @@
+# Hedges — 模糊限制语
+# 来源: Hyland (2005) Metadiscourse Appendix + 腐蚀科学领域补充
+# 功能: 表达不确定性、谨慎态度，弱化命题力度
+
+# ---- Modal verbs ----
+may
+might
+could
+would
+can
+should
+
+# ---- Epistemic adverbs ----
+perhaps
+possibly
+probably
+likely
+unlikely
+presumably
+apparently
+seemingly
+potentially
+arguably
+generally
+usually
+normally
+typically
+frequently
+often
+sometimes
+occasionally
+relatively
+fairly
+quite
+rather
+somewhat
+partially
+partly
+mostly
+mainly
+predominantly
+
+# ---- Epistemic adjectives/ nouns ----
+possible
+probable
+apparent
+approximate
+estimated
+tentative
+uncertain
+
+# ---- Hedging phrases ----
+in general
+in most cases
+in some cases
+to some extent
+to a certain extent
+more or less
+it appears that
+it seems that
+it is likely that
+it is possible that
+it is probable that
+it is suggested that
+it is assumed that
+it is believed that
+it is thought that
+
+# ---- Approximators ----
+about
+around
+approximately
+roughly
+nearly
+almost
+
+# ---- Hedging verbs ----
+suggest
+indicate
+imply
+assume
+suppose
+speculate
+appear
+seem
+tend
+estimate
+propose
+hypothesize

@@ -1,0 +1,82 @@
+# Boosters — 增强语
+# 来源: Hyland (2005) Metadiscourse Appendix + 腐蚀科学领域补充
+# 功能: 表达确定性，强化命题力度，封闭替代解释
+
+# ---- Booster adverbs ----
+clearly
+obviously
+definitely
+certainly
+indeed
+undoubtedly
+undeniably
+unquestionably
+surely
+evidently
+absolutely
+invariably
+always
+never
+highly
+strongly
+significantly
+markedly
+substantially
+considerably
+dramatically
+notably
+strikingly
+remarkably
+
+# ---- Booster phrases ----
+in fact
+of course
+without doubt
+no doubt
+it is clear that
+it is evident that
+it is obvious that
+it is certain that
+it is well known that
+it is established that
+it should be noted that
+it must be noted that
+it is noteworthy that
+there is no doubt that
+
+# ---- Booster verbs (表达确定性) ----
+demonstrate
+show
+prove
+confirm
+establish
+determine
+reveal
+disclose
+discover
+verify
+validate
+conclude
+know
+find
+
+# ---- Booster adjectives ----
+clear
+evident
+obvious
+certain
+definite
+true
+undeniable
+indisputable
+established
+proven
+demonstrated
+confirmed
+substantial
+significant
+remarkable
+striking
+dramatic
+pronounced
+marked
