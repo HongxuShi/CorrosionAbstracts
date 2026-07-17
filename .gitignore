@@ -18,15 +18,33 @@ __pycache__/
 Thumbs.db
 
 # ============================================================
-# 数据文件（取消注释以忽略大型数据文件）
-# 说明：
-#   - raw/     : OpenAlex API 原始输出，可从 API 重新获取
-#   - processed/: 特征提取后的 CSV，可从 raw/ 重新生成
-#   - results/ : 分析输出（图表、模型等）
-# 如果希望版本控制这些文件，请注释掉对应行。
+# 数据文件 — 大型文件或可从其他来源重新生成的文件
 # ============================================================
 
-# raw/*.json
-# raw/*.csv
-# processed/*.csv
-# results/*
+# OpenAlex原始数据（可从API重新获取）
+raw/*.json
+raw/*.csv
+
+# 中间处理产物 + 大CSV
+processed/*.csv
+notebooks/*.csv
+
+# 分析输出（图表、模型、HTML报告）
+results/*
+lab_*/output/*.csv
+lab_*/output/*.html
+
+# ============================================================
+# 基线阶段大型文件
+# ============================================================
+
+baseline/notebooks/checkpoint.json
+baseline/data/dataset.json
+baseline/manuscripts/*.pptx
+baseline/manuscripts/*.docx
+baseline/figures/*.JPG
+baseline/figures/*.png
+baseline/notebooks/DATA.csv
+baseline/notebooks/dataset_*.csv
+baseline/notebooks/OUTPUT_*.csv
+baseline/notebooks/descriptive_statistics.xlsx
